@@ -1,0 +1,101 @@
+#!/bin/bash 
+
+# Load sxhkd hotkey daemon
+sxhkd &
+
+
+# bspwm configs
+bspc monitor -d 'desktop' 'code' 'browse' 'explore' 'music' 'study' 'chat'
+
+bspc config normal_border_color   "#666666"
+bspc config focused_border_color  "#9FA1B3"
+bspc config urgent_border_color   "#9FA1B3"
+
+bspc config window_gap           25
+bspc config top_padding          15
+bspc config bottom_padding       15
+bspc config left_padding        -20
+bspc config right_padding       -20
+bspc config border_width         0
+bspc config split_ratio          0.52
+
+bspc config borderless_monocle      true
+bspc config gapless_monocle         false
+bspc config focus_by_distance       false
+bspc config focus_follows_pointer   true
+bspc config pointer_follows_focus   false
+bspc config click_to_focus          false
+bspc config center_pseudo_tiled     true
+
+# Workspace assignments
+bspc rule -a Nautilus desktop='^4'
+bspc rule -a Firefox  desktop='^3'
+bspc rule -a Chromium desktop='^3'
+bspc rule -a pomodone desktop='^1'
+bspc rule -a Gitter   desktop='^7'
+bspc rule -a Evince   desktop='^6'
+bspc rule -a Subl3     desktop="^2"
+bspc rule -a scratchpad sticky=on state=floating
+
+# Aesthetics
+xrdb ~/.Xresources
+compton -b & 
+feh --bg-scale ~/dotfiles/wallpapers/unix.png
+xsetroot -cursor_name left_ptr
+
+# For reducing power consumption
+sudo tlp start
+sudo rfkill block all
+
+# Load lemonbuddy 
+launchbar#!/bin/bash 
+
+# Load sxhkd hotkey daemon
+sxhkd &
+
+
+# bspwm configs
+bspc monitor -d 'desktop' 'code' 'browse' 'explore' 'music' 'study' 'chat'
+
+bspc config normal_border_color   "#666666"
+bspc config focused_border_color  "#9FA1B3"
+bspc config urgent_border_color   "#9FA1B3"
+
+bspc config window_gap           25
+bspc config top_padding          15
+bspc config bottom_padding       15
+bspc config left_padding        -20
+bspc config right_padding       -20
+bspc config border_width         0
+bspc config split_ratio          0.52
+
+bspc config borderless_monocle      true
+bspc config gapless_monocle         false
+bspc config focus_by_distance       false
+bspc config focus_follows_pointer   true
+bspc config pointer_follows_focus   false
+bspc config click_to_focus          false
+bspc config center_pseudo_tiled     true
+
+# Workspace assignments
+bspc rule -a Nautilus desktop='^4'
+bspc rule -a Firefox  desktop='^3'
+bspc rule -a Chromium desktop='^3'
+bspc rule -a pomodone desktop='^1'
+bspc rule -a Gitter   desktop='^7'
+bspc rule -a Evince   desktop='^6'
+bspc rule -a Subl3     desktop="^2"
+bspc rule -a scratchpad sticky=on state=floating
+
+# Aesthetics
+xrdb ~/.Xresources
+compton -b & 
+feh --bg-scale ~/Pictures/pac.jpg
+xsetroot -cursor_name left_ptr
+
+# For reducing power consumption
+sudo tlp start
+sudo rfkill block all
+
+# Load lemonbuddy 
+launchbar

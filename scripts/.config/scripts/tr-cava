@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+termite -c ~/.bin/trans-cava -e  floatcava &
+

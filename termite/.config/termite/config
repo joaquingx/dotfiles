@@ -1,0 +1,37 @@
+[options]
+font = Inconsolata 14
+clickable_url    = true
+browser          = firefox
+mouse_autohide   = false
+cursor_shape     = block
+cursor_blink     = true 
+
+[colors]
+
+##########################
+#       Nordisk          #
+#     Colorscheme        #
+#                        #
+##########################
+
+foreground      = #c5c8c6
+foreground_bold = #c5c8c6
+cursor          = #c5c8c6
+background      = #1d1f21
+
+color0  = #252a33
+color1  = #38404d
+color2  = #4a5466
+color3  = #5e6b81
+color4  = #6f7e98
+color5  = #d7e3f8
+color6  = #ffffff
+color7  = #8fbcbb
+color8  = #88c0d0
+color9  = #81a1c1
+color10 = #5e81ac
+color11 = #a3be8c
+color12 = #b48ead
+color13 = #ebcb8b
+color14 = #d08770
+color15 = #bf616a
