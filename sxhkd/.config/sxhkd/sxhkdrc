@@ -2,6 +2,10 @@
 #
 # custom keybindings
 
+# pomodoro timer
+super + shift + p
+  pomodoneapp
+
 # firefox
 super + shift + f
   firefox
@@ -33,8 +37,7 @@ super + ctrl + m
   tr-cava
 
 # brightness keys
-
-XF86KbdBrightnessUp 
+XF86KbdBrightnessUp
   exec xbacklight -inc 2 # increase screen brightness
 
 XF86KbdBrightnessDown 
@@ -51,6 +54,16 @@ XF86AudioLowerVolume
 XF86AudioMute
   exec pulseaudio-ctl mute    
 
+#TouchPad and touch screen
+XF86TouchpadToggle
+   controlTouch touchpad
+super + shift + t
+   controlTouch touchscreen
+
+#SpotifyControl
+
+XF86Audio{Play,Stop,Next,Prev}
+	controlSpotify {PlayPause,Stop,Next,Previous}
 
 # make sxhkd reload its configuration files:
 super + {_,shift + }r
@@ -106,7 +119,7 @@ super + {p,b,comma,period}
 
 # focus the next/previous node
 super + {_,shift + }c
-  bspc node -f {next,prev}
+      bspc node -f {next,prev}.local
 
 # focus the next/previous desktop
 super + bracket{left,right}
