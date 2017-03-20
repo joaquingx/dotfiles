@@ -1,10 +1,10 @@
 ## Dotfiles(or the configuration files for guys with too much time)
 My personal setup of dotfiles!
 
-##My Setup
+## My Setup
 <img src="https://s23.postimg.org/au5sceukb/2016_12_19_115633_852x431_scrot.png" width="600" height="320">
 
-##Installation
+## Installation
 Just link the dotfiles with [stow](https://www.gnu.org/software/stow/).
 ```sh
   $ git clone https://github.com/joaquingx/dotfiles
