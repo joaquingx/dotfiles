@@ -48,4 +48,5 @@ sudo tlp start
 sudo rfkill block all
 
 # Load lemonbuddy 
-launchbar
+/home/joaquin/.config/scripts/launchbar
+#launchbar

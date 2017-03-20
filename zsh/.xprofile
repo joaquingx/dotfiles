@@ -1,0 +1,5 @@
+sxhkd &
+#exec bspwm
+feh -g 1920x1080 -d -S filename ~/dotfiles/wallpapers/wal1.jpg
+#exec startxfce4
+
