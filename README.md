@@ -12,7 +12,7 @@ Just link the dotfiles with [stow](https://www.gnu.org/software/stow/).
   $ stow *
 ```
 
-##Thanks and resources
+## Thanks and resources
 [/r/unixporn](https://www.reddit.com/r/unixporn/) is a great place for learning about customization. I have some files that are
 <s>stealed</s> adapted from [Some cool guy in unixporn](https://github.com/Unathi-Skosana)(I hope you do not mind :see_no_evil:).
 I recommend read this [post](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) if you are new in this shit(like me).
