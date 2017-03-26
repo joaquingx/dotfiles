@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: competitive
+# key: competitive
+# --
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	return 0;
+}
