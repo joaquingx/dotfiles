@@ -1,0 +1,131 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/joaquin/.emacs.d/elpa/" . "solarized-theme-20161222.109/")
+ ("/home/joaquin/dotfiles/scripts/.config/" . "scripts/")
+ ("/home/joaquin/dotfiles/scripts/" . ".config/")
+ ("/home/joaquin/dotfiles/" . "scripts/")
+ ("/home/joaquin/Downloads/" . "Grafica/")
+ ("/home/joaquin/Documents/Competitive-Algorithms/" . "Geometry/")
+ ("/home/joaquin/Documents/Training/" . "Codeforces/")
+ ("/home/joaquin/.emacs.d/site-lisp/" . "skewer-mode/")
+ ("/home/joaquin/.emacs.d/" . "settings/")
+ ("/home/joaquin/Documents/Universidad/" . "IS/")
+ ("/home/" . "joaquin/")
+ ("/" . "home/")
+ ("/home/joaquin/Documents/" . "Training/")
+ ("/home/joaquin/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/joaquin/Documents/Universidad/Paralelos/"
+ "/home/joaquin/Documents/Training/Codeforces/"
+ "/home/joaquin/"
+ "/home/joaquin/.emacs.d/"
+ "/home/joaquin/.emacs.d/settings/"
+ "/home/joaquin/.emacs.d/themes/"
+ "/home/joaquin/Documents/Universidad/IS/"
+ "/home/joaquin/dotfiles/scripts/.config/scripts/"
+ "/home/joaquin/dotfiles/zsh/"
+ "/home/joaquin/Downloads/Grafica/"
+ "/home/joaquin/Documents/Competitive-Algorithms/Geometry/"
+ "/home/joaquin/Documents/Training/Codeforces/401/"
+ "/home/joaquin/.emacs.d/snippets/c++-mode/"
+ "/home/joaquin/.emacs.d/defuns/"
+ "/home/joaquin/Documents/Universidad/IS/boids/"
+ "/home/joaquin/.emacs.d.backup/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "venven.c"
+ "103B.cc"
+ ".algo"
+ "init.el"
+ "appearance.el"
+ "custom.el"
+ "solarized-dark-theme.el"
+ "boids.js"
+ "pagina.html"
+ "controlTouch"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/joaquin/" (22749 9023 554102 733000) ".dmrc" ".zcompdump" ".zsh_history" ".bash_history" ".yaourtrc" "./" ".antigen.zsh" ".smex-items" ".python_history" ".viminfo" ".Xauthority" ".bashrc" ".gnome/" ".gitconfig" "Pictures/" ".xinitrc" "Documents/" ".fonts/" "Downloads/" ".python_history-28532.tmp" ".export" ".config/" "Screenshot from 2017-03-29 09-56-24.png" ".zcompdump-Lanaya-5.2" ".nv/" ".alias" ".emacs.d/" ".xfce4-session.verbose-log" ".pki/" ".steam/" ".CLion2016.3/" ".algo" "Screenshot from 2017-03-29 09-55-52.png" ".zsh-update" ".xsession-errors" ".oh-my-zsh/" ".compton.conf" ".wget-hsts" ".functions" ".bin/" ".fehbg" ".steampid" ".bash_logout" ".antigen/" ".ssr/" ".local/" ".zshrc" ".Xresources" ".#alaal.cc" "../" "dotfiles/" ".bash_profile" ".emacs.d.backup/" ".ssh/" ".xsession-errors.old" ".gnupg/" ".saves/" ".ICEauthority" "Desktop/" ".xfce4-session.verbose-log.last" "Screenshot from 2017-03-29 09-54-30.png" ".xprofile" ".cache/" ".esd_auth" ".pulse-cookie" ".steampath" ".java/")
+
+ ("/home/joaquin/Documents/Universidad/Paralelos/" (22749 170 781209 79000) "./" "venven.c" "README.md" ".git/" "../" "Laboratorio01/" "a.out")
+
+ ("/home/joaquin/Documents/Training/Codeforces/" (22749 8287 537452 623000) "427C.cc" "siberian/" "758B.o" "318A.cc" "221D.cc" "677A.cc" "220B.cc" "115A.cc" "723D.cc" "baltic/" "round361/" "390/" "651A.cc" "766D.cc" "702C2.cc" "363/" "CanadD.cc" "505D.o" "404C.cc" "688A.cc" "448C.cc" "707A.o" "758A.o" "281B.cc" "395/" "520C.cc" "499B.cc" "427C.o" "brasilian/" "459E2.cc" "401/" "380C.o" "681C.cc" "731C.cc" "271D.cc" "356A.cc" "492B.cc" "677B.cc" "./" "688B.cc" "629B.cc" "466C.cc" "505D.cc" "149A.cc" "705B.cc" "467C.cc" "706B.cc" "295B.cc" "703D.cc" "474B.cc" "741B.cc" "southerneerc2009/" "CanadA.o" "705C.o" "375A.cc" "731A.cc" "51B.cc" "round340/" "94A.cc" "432D.cc" "southerneerc/" "743C.o" "680A.cc" "15C.cc" "708B.cc" "140C2.cc" "402D.cc" "707C.cc" "397/" "708B.o" "144A.cc" "687B.cc" "codecraft-17/" "training3/" "725D.cc" "379/" "711C.cc" "580C.cc" "380C.cc" "707B.cc" "741B.o" "732A.cc" "731B.cc" "86D.o" "126B.cc" "645C.cc" "387/" "677C.cc" "780/" "732D.cc" "386/" "702B.cc" "670A.cc" "701A.cc" "garland.cc" "140C.cc" "377A.cc" "722C.cc" "676A.cc" "124A.cc" "660C.cc" "219D.o" "264B.cc" "612C.cc" "680C.cc" "758C.o" "ecna/" "159A.cc" "295B.o" "680C2.cc" "616C.cc" "271D.o" "616-2.cc" "653B.cc" "710E.cc" "seleccion/" "baude.cc" "#779A.cc#" "499B.o" "732C.cc" "688C.cc" "a.o" "702A.cc" "758C.cc" "659E.cc" "CanadB.cc" "612A.cc" "705B.o" "393/" "a.cc" "86D.cc" "384/" "448D.cc" "moscow/" "743C.cc" "220B.o" "CanadB.o" "705A.o" "670B.cc" "705C.cc" "398/" "404C2.cc" "599B.cc" "681C.o" "456C.cc" "779C.cc" "138A.cc" "aim/" "103B.cc" "219D.cc" "gymBrasil/" "396/" "680B.cc" "swerc16/" "round358/" "278B.cc" "675C.cc" "725D.o" "455B.cc" "492A.cc" "758A.cc" "362/" "CanadC.cc" "../" "399/" "359/" "372/" "394/" "round378/" "126B.o" "629A.cc" "goodbye/" "388/" "492C.cc" "732B.cc" "baude.o" "round373/" "brasil/" "701C.cc" "490C.cc" "161D.cc" "352/" "472D.cc" "371/" "618C.cc" "18A.cc" "344/" "723C.cc" "472D.o" "#707C.cc#" "607A.cc" "702C.cc" "706C.cc" "675B.cc" "722C.o" "701D.cc" "342/" "60B.cc" "779C.o" "sppc16/" "370/" "628B.cc" "701B.cc" "676B.cc" "365/" "707A.cc" "sol.cc" "389/" "547B.cc" "705A.cc" "676C.cc" "758B.cc" "400/" "707B.o" "557C.cc" "404C.o" "404C2.o" "449A.cc" "soejima/" "459E.cc" "675A.cc" "a.out" "CanadA.cc" "448B.cc" "221D.o")
+
+ ("/home/joaquin/.emacs.d/" (22749 7363 427473 412000) "defuns/" "auto-save-list/" "snippets/" "./" ".gitmodules" "custom.el" "recentf" "README.md" "init.el" "backups/" "elpa/" "themes/" ".gitignore" "site-lisp/" ".git/" "../" "ido.last" "settings/" "var/" "eshell/" "history" ".mc-lists.el" "project-archetypes/" "users/")
+
+ ("/home/joaquin/.emacs.d/settings/" (22749 7124 77478 797000) "sane-defaults.el" "setup-ido.el" "mac.el" "my-misc.el" "setup-elnode.el" "./" "setup-perspective.el" "setup-js2-mode.el" "setup-org.el" "setup-ruby-mode.el" "setup-clojure-mode.el" "setup-package.el" "setup-skewer.el" "setup-flycheck.el" "key-bindings.el" "setup-dired.el" "setup-hippie.el" "setup-yasnippet.el" "setup-paredit.el" "setup-magit.el" "../" "appearance.el" "setup-markdown-mode.el" "setup-ffip.el" "setup-rgrep.el" "mode-mappings.el" "setup-shell.el" "setup-html-mode.el")
+
+ ("/home/joaquin/.emacs.d/themes/" (22749 6054 660836 188000) "./" "default-black-theme.el" "../" "solarized-dark-theme.el" "prez-theme.el")
+
+ ("/home/joaquin/.emacs.d/elpa/solarized-theme-20161222.109/" (22749 5465 227516 114000) "solarized-theme-autoloads.el" "./" "solarized-theme-utils.el" "solarized-theme-pkg.el" "solarized-light-theme.elc" "solarized-dark-theme.elc" "solarized-theme-utils.elc" "solarized-light-theme.el" "../" "solarized-theme.elc" "solarized.el" "solarized-dark-theme.el" "solarized-theme.el")
+
+ ("/home/joaquin/.emacs.d/elpa/" (22749 5464 387516 134000) "flx-20151030.1112/" "flycheck-pos-tip-20161112.912/" "guide-key-20150107.2235/" "clojure-mode-extra-font-locking-20170303.2310/" "nodejs-repl-20170110.940/" "elisp-slime-nav-20160128.1109/" "logito-20120225.1255/" "ido-at-point-20151021.57/" "inflections-20161126.1727/" "js2-mode-20170321.153/" "skewer-mode-1.6.2/" "htmlize-20161211.1019/" "queue-0.1.1/" "groovy-mode-20170323.817/" "./" "flycheck-20170324.340/" "move-text-20170213.2128/" "s-20160928.636/" "css-eldoc-20150124.1923/" "cider-20170322.155/" "gnupg/" "spinner-1.7.3/" "prodigy-20160929.2302/" "skewer-mode-readme.txt" "spinner-1.7.3.signed" "popwin-20150315.600/" "dired-details-20130824.458/" "flycheck-clojure-20170221.1354/" "simple-httpd-20170125.1910/" "yasnippet-20170326.1030/" "highlight-escape-sequences-20161028.1617/" "async-20170219.942/" "f-20161002.800/" "pcache-20170105.1414/" "smartparens-20170312.450/" "pkg-info-20150517.443/" "string-edit-20160410.2356/" "marshal-20160807.1954/" "flx-ido-20151030.1112/" "solarized-theme-20161222.109/" "seq-2.19/" "magit-20170322.1550/" "queue-0.1.1.signed" "dash-20170207.2056/" "archives/" "yesql-ghosts-20150220.437/" "gh-20161119.2004/" "with-editor-20170111.609/" "../" "whitespace-cleanup-mode-20150603.447/" "hydra-20170325.815/" "gist-20161127.855/" "seq-2.19.signed" "epl-20150517.433/" "magit-popup-20170308.146/" "ido-vertical-mode-20160429.1037/" "markdown-mode-20170317.1202/" "pos-tip-20150318.813/" "clojure-mode-20170303.2310/" "fill-column-indicator-20151030.1233/" "visual-regexp-20170228.1716/" "paredit-20160615.1325/" "edn-20160215.419/" "peg-20150707.2341/" "restclient-20160801.707/" "dockerfile-mode-20170221.1317/" "ht-20161015.1945/" "git-commit-20170314.1414/")
+
+ ("/home/joaquin/Downloads/Grafica/" (22748 61305 384411 260000) "glut32.lib" "./" "nuevo.cpp" "TP1 2017.rar" "nuevo.o" "Computación Gráfica - TP1.pdf" "../" "glut32.dll" "main.o" "glut.h" "main.cpp")
+
+ ("/home/joaquin/dotfiles/scripts/.config/scripts/" (22748 58387 180990 969000) "./" "tr-cava" "controlSpotify" "controlTouch" "floatcava" "dropbox.sh" "../" "chrome" "checkstyle.py" "trans-cava" "num.py" "launchbar" "glg++.sh")
+
+ ("/home/joaquin/dotfiles/scripts/.config/" (22615 1086 954902 551000) "./" "../" "scripts/")
+
+ ("/home/joaquin/dotfiles/scripts/" (22615 1092 968235 633000) "./" ".config/" "../")
+
+ ("/home/joaquin/dotfiles/" (22746 23820 660846 354000) "zsh/" "./" ".gitmodules" "wallpapers/" "polybar/" "README.md" "sxhkd/" ".gitignore" ".git/" "termite/" "../" "gtk-3.0/" "bspwm/" "scripts/")
+
+ ("/home/joaquin/dotfiles/zsh/" (22748 58226 534319 515000) ".yaourtrc" "./" ".antigen.zsh" ".gitconfig" ".xinitrc" ".export" ".alias" ".emacs.d/" ".compton.conf" ".functions" ".zshrc" ".Xresources" "../" ".#.alias" ".xprofile")
+
+ ("/home/joaquin/Downloads/" (22748 56118 439842 959000) "revengepancakes.cc" "unnamed.png" "Taxonomia_de_Flynn_Joaquin_Garmendia.pdf" "./" "saintignucius.jpg" "mike.jpg" "PracticaLaboratorio1-Paralelos.docx" "clion-2016.3.5/" "Lily In Hawaii.zip" "free-software-song.au" "an_introduction_to_parallel_programming_-_peter_s._pacheco.pdf" "Redes/" "AW.Computer.Networking.A.Top-Down.Approach.6th.Edition.0132856204.pdf" "TP1 2017.rar" "palabrera.png" "CLion-2016.3.5.tar.gz" "Jacob's Rebound 0.97/" "Jacob's Rebound 0.97.zip" "Gustafson.png" "AmdahlsLaw.svg.png" "sub-src-4.zip" "Plantilla-de-Excel-para-cotizacion.xls" "computer-security-principles-and-practice.pdf" "b7954003-1063-43d8-abc0-5f73b5e7f8e6.png" "PracticaLab01.docx" "Plantilla.xlsx" "../" "Grafica/" "Milfs Villa v0.2b.exe" "software.mp4" "Taboo/" "Plantilla-de-Excel-para-cotizacion (1).xls" "Tuerca.png" "emacs.png" "Leyes.pdf" "5b2aeb07-030d-422f-af5e-105d49392455.png")
+
+ ("/home/joaquin/Documents/Universidad/IS/" (22747 57355 796133 39000) "real.cc" "pagina.html" "./" "script.js" "eval.js" "nuevo.html" "../" "boids/" "boids.js")
+
+ ("/home/joaquin/Documents/Competitive-Algorithms/Geometry/" (22625 33215 398147 76000) "Geometry.cc" "./" "../")
+
+ ("/home/joaquin/Documents/Competitive-Algorithms/Strings/" (22645 14830 52558 496000) "./" "Trie.cc" "../" "ZFunction.cc" "Hash.cc")
+
+ ("/home/joaquin/Documents/Competitive-Algorithms/Graphs/" (22625 33215 398147 76000) "Dijkstra.cc" "LCA.cc" "Kruskal.cc" "./" "Bellman.cc" "Toposort.cc" "../" "Bridge.cc" "Kosaraju.cc" "Floyd.cc")
+
+ ("/home/joaquin/Documents/Competitive-Algorithms/Estructuras/" (22682 49087 820107 684000) "SplayTree.cc" "./" "SegmentTree.cc" "LazyST.cc" "dsu.cc" "../" "Treap.cc" "RMQSparse.cc" "FenwickTree.cc")
+
+ ("/home/joaquin/Documents/Competitive-Algorithms/Algoritmos/" (22625 33215 398147 76000) "./" "BinarySearch.cc" "Bitmask.cc" "lisnlogn.cc" "../" "TernarySearch.cc")
+
+ ("/home/joaquin/Documents/Competitive-Algorithms/" (22625 33215 398147 76000) "Strings/" "./" "README.md" "LICENSE" "Geometry/" ".git/" "Estructuras/" "../" "Graphs/" "Algoritmos/")
+
+ ("/home/joaquin/Documents/Training/Codeforces/401/" (22747 62495 382577 689000) "B.cc" "./" "B.o" "A.cc" "../" "A.o")
+
+ ("/home/joaquin/.emacs.d/snippets/" (22747 58764 246072 198000) "ruby-mode/" "php-mode/" "clojure-mode/" "./" "c++-mode/" "emacs-lisp-mode/" "js2-mode/" "html-mode/" "markdown-mode/" "js-mode/" "../" "crappy-jsp-mode/" "feature-mode/")
+
+ ("/home/joaquin/.emacs.d/snippets/c++-mode/" (22747 58764 246072 198000) "./" "../")
+
+ ("/home/joaquin/Documents/Training/" (22617 43578 577250 753000) "subneerc/" "RPC02/" "HackerRank/" "./" "icpc/" "RPC/" "SPOJ/" ".git/" "../" "punisher/" "Codejam2016/" "LightOJ/" "HackerEarth/" "Neerc/" "Codeforces/" "RPCGO/")
+
+ ("/home/joaquin/.emacs.d/defuns/" (22746 63382 643714 126000) "clj-defuns.el" "js2r-defuns.el" "./" "misc-defuns.el" "project-defuns.el" "editing-defuns.el" "snippet-helpers.el" "../" "buffer-defuns.el" "lisp-defuns.el" "file-defuns.el")
+
+ ("/home/joaquin/Documents/Universidad/IS/boids/" (22747 43391 160069 609000) "LICENSE.md" "package.json" "benchmark.js" "./" "index.html" "README.md" "index.js" ".gitignore" ".git/" "../" "demo.js")
+
+ ("/home/joaquin/.emacs.d/site-lisp/skewer-mode/" (22746 63382 657047 459000) "skewer-everything.user.js" "UNLICENSE" "skewer-repl.el" "skewer-css.el" "./" "skewer-bower.el" "skewer-mode.el" "README.md" "TODO" "skewer-html.el" "../" "example.html" "skewer.js" "cache-table.el")
+
+ ("/home/joaquin/.emacs.d/site-lisp/" (22746 63382 660380 792000) "shell-command.el" "mouse-slider-mode.el" "angular-snippets/" "change-inner/" "php-mode/" "groovy-mode/" "single-quotes-mode.el" "./" "old-clj-refactor-stuff.el" "symbol-focus.el" "simplezen/" "jade-mode/" "ido-ubiquitous/" "smooth-scrolling.el" "delsel/" "find-file-in-project/" "tern/" "evil/" "wgrep/" "smart-forward/" "core-async-mode.el" "smex/" "datomic-snippets/" "buster-mode/" "eproject/" "annoying-arrows-mode/" "skewer-mode/" "multifiles/" "s/" "oppdrag-mode.el" "undo-tree.el" "frame-cmds.el" "bash-completion/" "browse-kill-ring/" "zoom-frm.el" "diminish.el" "rhtml-mode/" "perspective/" "apache-mode.el" "../" "yaml-mode/" "clj-refactor/" "fill-column-indicator/" "hardcore-mode/" "expand-region/" "frame-fns.el" "top-mode.el" "multiple-cursors/" "crappy-jsp-mode/" "feature-mode/" "js2-refactor/" "dash/" "clj-autotest.el" "ace-jump-mode/" "tagedit/" "fold-this/" "jump-char/" "buster-snippets/" "project-archetypes/" "puppet-mode/")
+
+ ("/home/joaquin/.emacs.d.backup/" (22746 62997 313722 795000) "iy-go/" "auto-save-list/" "snippets/" "./" "functions/" "el-get/" "init.el" "cleanup/" "../" "eshell/")
+
+ ("/home/joaquin/.emacs.d/users/" (22746 63382 660380 792000) "./" "magnars/" "fimasvee/" "christian/" "../")
+
+ ("/home/" (22612 19507 531826 550000) "./" "lost+found/" "../" "joaquin/")
+
+ ("/home/joaquin/Documents/Pagina/" (22637 30867 405447 121000) "./" "Pagina.html" "../" "stylesheet.css")
+
+ ("/home/joaquin/Documents/" (22746 63562 57043 423000) "./" "Universidad/" "Repos/" "Training/" "../" "Pagina/" "Competitive-Algorithms/")
+
+ ("/home/joaquin/Documents/Universidad/" (22742 42530 135966 299000) "./" "IS/" "../" "Paralelos/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
