@@ -355,4 +355,10 @@
 (define-key occur-mode-map (kbd "n") 'next-line)
 (define-key occur-mode-map (kbd "p") 'previous-line)
 
+;; Configuration of C(C++)-Major-Mode
+
+(add-hook 'c-mode-hook
+          (lambda ()  ( local-set-key  (kbd "<return>") #'open-line-below ) )
+          )
+
 (provide 'key-bindings)

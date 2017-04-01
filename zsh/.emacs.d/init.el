@@ -108,6 +108,9 @@
      cider
      yesql-ghosts
      string-edit
+
+     ;;Mines
+     pdf-tools
      )))
 
 (condition-case nil
@@ -251,4 +254,4 @@
   (mapc 'load (directory-files user-settings-dir nil "^[^#].*el$")))
 (put 'ido-exit-minibuffer 'disabled nil)
 
-
+(pdf-tools-install)

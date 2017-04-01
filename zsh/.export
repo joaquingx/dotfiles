@@ -1,2 +1,1 @@
-
-PATH=$PATH:~/.config/scripts
+export PATH=$PATH:~/.config/scripts

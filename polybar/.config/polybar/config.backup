@@ -41,37 +41,37 @@ type = custom/menu
 
 label-open = 
 label-close = 
-label-open-foreground =  #F0F8FF
-label-close-foreground = #F0F8FF 
+label-open-foreground =  #4A5466
+label-close-foreground = #4A5466 
 label-separator = |
-label-separator-foreground = #F0F8FF
+label-separator-foreground = #4A5466
 
 menu-0-0 = Terminate WM
-menu-0-0-foreground = #F0F8FF
+menu-0-0-foreground = #4A5466
 menu-0-0-exec = bspc quit -1
 menu-0-1 = Reboot
-menu-0-1-foreground = #F0F8FF
+menu-0-1-foreground = #4A5466
 menu-0-1-exec = menu-open-1
 menu-0-2 = Power off
-menu-0-2-foreground = #F0F8FF
+menu-0-2-foreground = #4A5466
 menu-0-2-exec = menu-open-2
 menu-0-3 = Lock
-menu-0-3-foreground = #F0F8FF
+menu-0-3-foreground = #4A5466
 menu-0-3-exec = i3lock-fancy
 
 
 menu-1-0 = Cancel
-menu-1-0-foreground = #F0F8FF
+menu-1-0-foreground = #4A5466
 menu-1-0-exec = menu-open-0
 menu-1-1 = Reboot
 menu-1-1-foreground = #ee
 menu-1-1-exec = reboot
 
 menu-2-0 = Power off
-menu-2-0-foreground = #F0F8FF
+menu-2-0-foreground = #4A5466
 menu-2-0-exec = poweroff
 menu-2-1 = Cancel
-menu-2-1-foreground = #F0F8FF
+menu-2-1-foreground = #4A5466
 menu-2-1-exec = menu-open-0
 
 [module/wireless-network]
@@ -208,7 +208,7 @@ animation-charging-framerate_ms = 750
 bottom = true
 dock = true
 background = #00
-foreground = #F0F8FF
+foreground = #4A5466
 
 spacing = 1
 lineheight = 3
@@ -228,12 +228,12 @@ modules-right = cpu memory cpu_temp
 type = internal/memory
 interval = 2
 label =  %gb_used%
-label-foreground = #F0F8FF
+label-foreground = #4A5466
 format = <label> <bar-used> 
 
 bar-used-width = 7
-bar-used-foreground-0 = #F0F8FF
-bar-used-foreground-1 = #F0F8FF
+bar-used-foreground-0 = #4A5466
+bar-used-foreground-1 = #4A5466
 bar-used-foreground-2 = #b7672d
 bar-used-foreground-3 = #7f0a0a
 bar-used-gradient = false
@@ -244,7 +244,7 @@ bar-used-fill = 
 bar-used-fill-font = 1
 bar-used-empty = 
 bar-used-empty-font = 1
-bar-used-empty-foreground = #F0F8FF
+bar-used-empty-foreground = #4A5466
 
 [module/cpu]
 type = internal/cpu
@@ -252,22 +252,22 @@ interval = 2
 
 format = <label> <bar-load>
 label =  %percentage%
-label-foreground = #F0F8FF
+label-foreground = #4A5466
 
 bar-load-width = 7
-bar-load-foreground-0 = #F0F8FF
-bar-load-foreground-1 = #F0F8FF
+bar-load-foreground-0 = #4A5466
+bar-load-foreground-1 = #4A5466
 bar-load-foreground-2 = #b7672d
 bar-load-foreground-3 = #7f0a0a
 bar-load-gradient = false
 bar-load-indicator = 
 bar-load-indicator-font = 1
-bar-load-indicator-foreground = #F0F8FF
+bar-load-indicator-foreground = #4A5466
 bar-load-fill = 
 bar-load-fill-font = 1
 bar-load-empty = 
 bar-load-empty-font = 1
-bar-load-empty-foreground = #F0F8FF
+bar-load-empty-foreground = #4A5466
 
 [module/cpu_temp]
 type = internal/temperature
@@ -304,7 +304,7 @@ type = internal/bspwm
  ;   %index%
  ; Default: %icon%  %name%
  label-active = %icon%
- label-active-foreground = #F0F8FF
+ label-active-foreground = #4A5466
  label-active-underline = #5E6B81
  label-active-padding = 1
 
@@ -314,7 +314,7 @@ type = internal/bspwm
  ;   %index%
  ; Default: %icon%  %name%
  label-occupied = %icon% %name%
- label-occupied-foreground = #F0F8FF
+ label-occupied-foreground = #4A5466
  label-occupied-padding = 1
 
  ; Available tokens:
