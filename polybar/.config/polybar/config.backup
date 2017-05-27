@@ -106,7 +106,6 @@ interval = 1000
 type = internal/date
 date = %H:%M %a %d
 interval = 60
-
 [module/volume]
 type = internal/volume
 label-volume =  %percentage%

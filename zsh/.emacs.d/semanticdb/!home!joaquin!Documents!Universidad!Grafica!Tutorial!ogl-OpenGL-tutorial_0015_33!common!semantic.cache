@@ -1,0 +1,72 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("SHADER_HPP" variable (:constant-flag t) nil [28 38])
+            ("LoadShaders" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("vertex_file_path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [59 89])
+                    ("fragment_file_path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [89 121]))                  
+                :type ("GLuint" type (:type "class") nil nil))
+                nil [40 122]))          
+      :file "shader.hpp"
+      :pointmax 131
+      :fsize 136
+      :lastmodtime '(22053 24633 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SHADER_HPP")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string" include (:system-flag t) nil [20 37])
+            ("vector" include (:system-flag t) nil [38 55])
+            ("iostream" include (:system-flag t) nil [56 75])
+            ("fstream" include (:system-flag t) nil [76 94])
+            ("algorithm" include (:system-flag t) nil [95 115])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [116 136])
+            ("stdlib.h" include (:system-flag t) nil [138 157])
+            ("string.h" include (:system-flag t) nil [158 177])
+            ("GL/glew.h" include (:system-flag t) nil [179 199])
+            ("shader.hpp" include nil nil [201 222])
+            ("LoadShaders" function
+               (:arguments 
+                  ( ("vertex_file_path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [243 273])
+                    ("fragment_file_path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [273 305]))                  
+                :type ("GLuint" type (:type "class") nil nil))
+                nil [224 3609]))          
+      :file "shader.cpp"
+      :pointmax 3610
+      :fsize 3441
+      :lastmodtime '(22053 24633 0 0)
+      :unmatched-syntax nil))
+  :file "!home!joaquin!Documents!Universidad!Grafica!Tutorial!ogl-OpenGL-tutorial_0015_33!common!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

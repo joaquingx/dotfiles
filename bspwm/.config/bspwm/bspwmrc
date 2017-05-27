@@ -32,7 +32,8 @@ bspc rule -a Nautilus desktop='^4'
 bspc rule -a Firefox  desktop='^3'
 bspc rule -a Chromium desktop='^3'
 bspc rule -a Spotify  desktop='^5'
-bspc rule -a Emacs    state=tiled desktop='^2'x
+bspc rule -a Emacs    state=tiled desktop='^2'
+bspc rule -a Evince   desktop='^6'
 #bspc rule -a scratchpad sticky=on state=floating
 
 # Aesthetics

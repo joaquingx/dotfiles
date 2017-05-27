@@ -1,0 +1,360 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [610 628])
+            ("stdlib.h" include (:system-flag t) nil [629 648])
+            ("mpi.h" include (:system-flag t) nil [649 665])
+            ("my_rank" variable (:type "int") nil [667 688])
+            ("comm_sz" variable (:type "int") nil [667 688])
+            ("comm" variable (:type ("MPI_Comm" type (:type "class") nil nil)) nil [689 703])
+            ("Check_for_error" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("local_ok" variable (:type "int") (reparse-symbol arg-sub-list) [726 739])
+                    ("fname" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [740 753])
+                    ("message" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [754 769]))                  
+                :type "void")
+                nil [705 770])
+            ("Get_dims" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [785 794])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [795 808])
+                    ("m_p" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [809 818])
+                    ("local_m_p" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [819 834])
+                    ("n_p" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [841 850])
+                    ("local_n_p" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [851 866]))                  
+                :type "void")
+                nil [771 867])
+            ("Allocate_arrays" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("local_A_pp" variable
+                       (:pointer 2
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [889 909])
+                    ("local_x_pp" variable
+                       (:pointer 2
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [910 930])
+                    ("local_y_pp" variable
+                       (:pointer 2
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [937 957])
+                    ("local_m" variable (:type "int") (reparse-symbol arg-sub-list) [958 970])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [971 977])
+                    ("local_n" variable (:type "int") (reparse-symbol arg-sub-list) [978 990]))                  
+                :type "void")
+                nil [868 991])
+            ("Read_matrix" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("prompt" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1009 1023])
+                    ("local_A" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1024 1041])
+                    ("m" variable (:type "int") (reparse-symbol arg-sub-list) [1042 1048])
+                    ("local_m" variable (:type "int") (reparse-symbol arg-sub-list) [1049 1061])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1068 1074])
+                    ("local_n" variable (:type "int") (reparse-symbol arg-sub-list) [1075 1087]))                  
+                :type "void")
+                nil [992 1088])
+            ("Read_vector" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("prompt" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1106 1120])
+                    ("local_vec" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1121 1140])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1141 1147])
+                    ("local_n" variable (:type "int") (reparse-symbol arg-sub-list) [1148 1160]))                  
+                :type "void")
+                nil [1089 1161])
+            ("Generate_matrix" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("local_A" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1183 1200])
+                    ("local_m" variable (:type "int") (reparse-symbol arg-sub-list) [1201 1213])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1214 1220]))                  
+                :type "void")
+                nil [1162 1221])
+            ("Generate_vector" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("local_x" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1243 1260])
+                    ("local_n" variable (:type "int") (reparse-symbol arg-sub-list) [1261 1273]))                  
+                :type "void")
+                nil [1222 1274])
+            ("Print_matrix" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("title" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1293 1306])
+                    ("local_A" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1307 1324])
+                    ("m" variable (:type "int") (reparse-symbol arg-sub-list) [1325 1331])
+                    ("local_m" variable (:type "int") (reparse-symbol arg-sub-list) [1332 1344])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1351 1357]))                  
+                :type "void")
+                nil [1275 1358])
+            ("Print_vector" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("title" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1377 1390])
+                    ("local_vec" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1391 1410])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1411 1417])
+                    ("local_n" variable (:type "int") (reparse-symbol arg-sub-list) [1424 1436]))                  
+                :type "void")
+                nil [1359 1437])
+            ("Mat_vect_mult" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("local_A" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1457 1474])
+                    ("local_x" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1475 1492])
+                    ("local_y" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1499 1516])
+                    ("x" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1517 1528])
+                    ("m" variable (:type "int") (reparse-symbol arg-sub-list) [1529 1535])
+                    ("local_m" variable (:type "int") (reparse-symbol arg-sub-list) [1536 1548])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1549 1555])
+                    ("local_n" variable (:type "int") (reparse-symbol arg-sub-list) [1562 1574]))                  
+                :type "void")
+                nil [1438 1575])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1658 1667])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1668 1681]))                  
+                :type "int")
+                nil [1649 3074])
+            ("Check_for_error" function
+               (:arguments 
+                  ( ("local_ok" variable (:type "int") (reparse-symbol arg-sub-list) [3189 3219])
+                    ("fname" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3226 3256])
+                    ("message" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3263 3293]))                  
+                :type "void")
+                nil [3161 3637])
+            ("Get_dims" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [3756 3787])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3794 3825])
+                    ("m_p" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [3832 3863])
+                    ("local_m_p" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [3870 3901])
+                    ("n_p" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [3908 3939])
+                    ("local_n_p" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [3946 3977]))                  
+                :type "void")
+                nil [3735 4488])
+            ("Allocate_arrays" function
+               (:arguments 
+                  ( ("local_A_pp" variable
+                       (:pointer 2
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [4606 4638])
+                    ("local_x_pp" variable
+                       (:pointer 2
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [4645 4677])
+                    ("local_y_pp" variable
+                       (:pointer 2
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [4684 4716])
+                    ("local_m" variable (:type "int") (reparse-symbol arg-sub-list) [4723 4755])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [4762 4794])
+                    ("local_n" variable (:type "int") (reparse-symbol arg-sub-list) [4801 4833]))                  
+                :type "void")
+                nil [4578 5194])
+            ("Read_matrix" function
+               (:arguments 
+                  ( ("prompt" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5315 5346])
+                    ("local_A" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [5353 5384])
+                    ("m" variable (:type "int") (reparse-symbol arg-sub-list) [5391 5422])
+                    ("local_m" variable (:type "int") (reparse-symbol arg-sub-list) [5429 5460])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [5467 5498])
+                    ("local_n" variable (:type "int") (reparse-symbol arg-sub-list) [5505 5536]))                  
+                :type "void")
+                nil [5291 6257])
+            ("Read_vector" function
+               (:arguments 
+                  ( ("prompt" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [6374 6407])
+                    ("local_vec" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [6414 6447])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [6454 6487])
+                    ("local_n" variable (:type "int") (reparse-symbol arg-sub-list) [6494 6527]))                  
+                :type "void")
+                nil [6350 7206])
+            ("Generate_matrix" function
+               (:arguments 
+                  ( ("local_A" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [7320 7337])
+                    ("local_m" variable (:type "int") (reparse-symbol arg-sub-list) [7338 7350])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [7351 7357]))                  
+                :type "void")
+                nil [7299 7644])
+            ("Generate_vector" function
+               (:arguments 
+                  ( ("local_x" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [7762 7779])
+                    ("local_n" variable (:type "int") (reparse-symbol arg-sub-list) [7780 7792]))                  
+                :type "void")
+                nil [7741 7999])
+            ("Print_matrix" function
+               (:arguments 
+                  ( ("title" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [8121 8151])
+                    ("local_A" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [8158 8188])
+                    ("m" variable (:type "int") (reparse-symbol arg-sub-list) [8195 8225])
+                    ("local_m" variable (:type "int") (reparse-symbol arg-sub-list) [8232 8262])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [8269 8299]))                  
+                :type "void")
+                nil [8096 9061])
+            ("Print_vector" function
+               (:arguments 
+                  ( ("title" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [9180 9211])
+                    ("local_vec" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [9218 9249])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [9256 9287])
+                    ("local_n" variable (:type "int") (reparse-symbol arg-sub-list) [9294 9325]))                  
+                :type "void")
+                nil [9155 10020])
+            ("Mat_vect_mult" function
+               (:arguments 
+                  ( ("local_A" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [10140 10171])
+                    ("local_x" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [10178 10209])
+                    ("local_y" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [10216 10247])
+                    ("x" variable
+                       (:dereference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [10254 10289])
+                    ("m" variable (:type "int") (reparse-symbol arg-sub-list) [10296 10327])
+                    ("local_m" variable (:type "int") (reparse-symbol arg-sub-list) [10334 10365])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [10372 10403])
+                    ("local_n" variable (:type "int") (reparse-symbol arg-sub-list) [10410 10441]))                  
+                :type "void")
+                nil [10114 10727]))          
+      :file "matc.c"
+      :pointmax 10749
+      :unmatched-syntax nil))
+  :file "!home!joaquin!Documents!Universidad!Paralelos!Laboratorio03!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

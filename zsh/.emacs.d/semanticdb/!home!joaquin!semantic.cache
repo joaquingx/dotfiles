@@ -1,0 +1,30 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'''
+   Simple PoC for Joomla Object Injection.
+   Gary @ Sec-1 ltd
+   http://www.sec-1.com/
+'''" code nil nil [1 96])
+            ("requests" include nil nil [99 114])
+            ("get_url" function (:arguments 
+              ( ("url" variable nil (reparse-symbol function_parameters) [154 157])
+                ("user_agent" variable nil (reparse-symbol function_parameters) [159 169]))              ) nil [142 398])
+            ("php_str_noquotes" function (:arguments 
+              ( ("data" variable nil (reparse-symbol function_parameters) [423 427]))              ) nil [402 599])
+            ("generate_payload" function (:arguments 
+              ( ("php_payload" variable nil (reparse-symbol function_parameters) [624 635]))              ) nil [603 1385])
+            ("pl" variable nil nil [1391 1509]))          
+      :file "hack.py"
+      :pointmax 1572
+      :fsize 1571
+      :lastmodtime '(22757 45982 425964 642000)
+      :unmatched-syntax nil))
+  :file "!home!joaquin!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

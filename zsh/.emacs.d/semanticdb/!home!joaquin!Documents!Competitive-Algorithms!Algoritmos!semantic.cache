@@ -1,0 +1,53 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("bits/stdc++.h" include (:system-flag t) nil [1 25])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [26 46])
+            ("lower_bound" function
+               (:arguments 
+                  ( ("A" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [407 415])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [416 422])
+                    ("c" variable (:type "int") (reparse-symbol arg-sub-list) [423 429]))                  
+                :type "int")
+                nil [391 615])
+            ("upper_bound" function
+               (:arguments 
+                  ( ("A" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [633 641])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [642 648])
+                    ("c" variable (:type "int") (reparse-symbol arg-sub-list) [649 655]))                  
+                :type "int")
+                nil [617 853])
+            ("bs" function
+               (:arguments 
+                  ( ("arr" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [862 872])
+                    ("left" variable (:type "int") (reparse-symbol arg-sub-list) [872 882])
+                    ("right" variable (:type "int") (reparse-symbol arg-sub-list) [882 892])
+                    ("key" variable (:type "int") (reparse-symbol arg-sub-list) [893 901]))                  
+                :type "int")
+                nil [855 1066])
+            ("main" function (:type "int") nil [1069 1095]))          
+      :file "BinarySearch.cc"
+      :pointmax 1096
+      :fsize 1054
+      :lastmodtime '(22761 22196 657400 952000)
+      :unmatched-syntax nil))
+  :file "!home!joaquin!Documents!Competitive-Algorithms!Algoritmos!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

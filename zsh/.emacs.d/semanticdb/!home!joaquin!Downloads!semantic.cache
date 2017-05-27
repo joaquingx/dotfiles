@@ -1,0 +1,175 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("stdlib.h" include (:system-flag t) nil [40 59])
+            ("BOARD_ROWS" variable (:constant-flag t) nil [68 78])
+            ("BOARD_COLS" variable (:constant-flag t) nil [90 100])
+            ("printBoard" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [121 133]))                  
+                :type "void")
+                nil [105 134])
+            ("takeTurn" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [148 160])
+                    ("player" variable (:type "int") (reparse-symbol arg-sub-list) [161 172])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [173 185]))                  
+                :type "int")
+                nil [135 186])
+            ("checkWin" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [200 212]))                  
+                :type "int")
+                nil [187 213])
+            ("checkFour" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [228 240])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [241 245])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [246 250])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [251 255])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [256 260]))                  
+                :type "int")
+                nil [214 261])
+            ("horizontalCheck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [282 294]))                  
+                :type "int")
+                nil [262 295])
+            ("verticalCheck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [314 326]))                  
+                :type "int")
+                nil [296 327])
+            ("diagonalCheck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [346 358]))                  
+                :type "int")
+                nil [328 359])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [370 379])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [380 393]))                  
+                :type "int")
+                nil [361 976])
+            ("printBoard" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [993 1005]))                  
+                :type "void")
+                nil [977 1339])
+            ("takeTurn" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1353 1365])
+                    ("player" variable (:type "int") (reparse-symbol arg-sub-list) [1366 1377])
+                    ("PIECES" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1378 1397]))                  
+                :type "int")
+                nil [1340 1892])
+            ("checkWin" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1906 1918]))                  
+                :type "int")
+                nil [1893 2005])
+            ("checkFour" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2020 2032])
+                    ("a" variable (:type "int") (reparse-symbol arg-sub-list) [2033 2039])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [2040 2046])
+                    ("c" variable (:type "int") (reparse-symbol arg-sub-list) [2047 2053])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [2054 2060]))                  
+                :type "int")
+                nil [2006 2164])
+            ("horizontalCheck" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2185 2197]))                  
+                :type "int")
+                nil [2165 2497])
+            ("verticalCheck" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2516 2528]))                  
+                :type "int")
+                nil [2498 2833])
+            ("diagonalCheck" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2852 2864]))                  
+                :type "int")
+                nil [2834 3341]))          
+      :file "main.c"
+      :pointmax 3342
+      :fsize 3657
+      :lastmodtime '(22759 45781 233308 819000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOARD_ROWS" . ((number "10" 79 . 81)))
+          ("BOARD_COLS" . ((number "10" 101 . 103)))
+          )
+))
+  :file "!home!joaquin!Downloads!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

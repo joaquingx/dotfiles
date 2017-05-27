@@ -1,0 +1,36 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("bits/stdc++.h" include (:system-flag t) nil [1 25])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [26 46])
+            ("MAXN" variable (:constant-flag t) nil [58 62])
+            ("KMP" function
+               (:arguments 
+                  ( ("K" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [90 99]))                  
+                :type ("vector" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [74 306])
+            ("main" function (:type "int") nil [309 682]))          
+      :file "10298.cc"
+      :pointmax 683
+      :fsize 682
+      :lastmodtime '(22763 32066 973000 61000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAXN" . ((number "1" 60 . 61)))
+          )
+))
+  :file "!home!joaquin!Documents!Training!UVA!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

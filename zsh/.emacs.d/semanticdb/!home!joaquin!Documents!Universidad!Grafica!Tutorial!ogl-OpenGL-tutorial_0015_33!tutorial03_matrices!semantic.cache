@@ -1,0 +1,48 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [29 47])
+            ("stdlib.h" include (:system-flag t) nil [48 67])
+            ("GL/glew.h" include (:system-flag t) nil [85 105])
+            ("glfw3.h" include (:system-flag t) nil [123 141])
+            ("window" variable
+               (:pointer 1
+                :type ("GLFWwindow" type (:type "class") nil nil))
+                nil [142 161])
+            ("glm/glm.hpp" include (:system-flag t) nil [178 200])
+            ("glm/gtc/matrix_transform.hpp" include (:system-flag t) nil [201 240])
+            ("glm/gtx/transform.hpp" include (:system-flag t) nil [241 273])
+            ("glm" using (:type ("glm" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [274 294])
+            ("common/shader.hpp" include (:system-flag t) nil [296 324])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [336 342]))                  
+                :type "int")
+                nil [326 5588]))          
+      :file "tutorial03.cpp"
+      :pointmax 5589
+      :fsize 5588
+      :lastmodtime '(22766 28487 685970 70000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("vertexPosition_modelspace" variable (:type ("vec3" type (:type "class") nil nil)) nil [111 142])
+            ("MVP" variable (:type ("mat4" type (:type "class") nil nil)) nil [201 210])
+            ("main" function (:type "void") nil [212 351]))          
+      :file "SimpleTransform.vertexshader"
+      :pointmax 353
+      :fsize 367
+      :lastmodtime '(22053 24633 0 0)
+      :unmatched-syntax '((symbol 193 . 200) (symbol 108 . 110) (semantic-list 93 . 107) (symbol 87 . 93) (symbol 14 . 18) (number 10 . 13) (symbol 2 . 9) (punctuation 1 . 2))))
+  :file "!home!joaquin!Documents!Universidad!Grafica!Tutorial!ogl-OpenGL-tutorial_0015_33!tutorial03_matrices!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

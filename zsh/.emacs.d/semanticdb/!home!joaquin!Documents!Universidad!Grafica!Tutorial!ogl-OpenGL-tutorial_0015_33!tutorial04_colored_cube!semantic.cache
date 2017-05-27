@@ -1,0 +1,49 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [29 47])
+            ("stdlib.h" include (:system-flag t) nil [48 67])
+            ("GL/glew.h" include (:system-flag t) nil [85 105])
+            ("glfw3.h" include (:system-flag t) nil [123 141])
+            ("window" variable
+               (:pointer 1
+                :type ("GLFWwindow" type (:type "class") nil nil))
+                nil [142 161])
+            ("glm/glm.hpp" include (:system-flag t) nil [178 200])
+            ("glm/gtc/matrix_transform.hpp" include (:system-flag t) nil [201 240])
+            ("glm" using (:type ("glm" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [241 261])
+            ("common/shader.hpp" include (:system-flag t) nil [263 291])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [303 309]))                  
+                :type "int")
+                nil [293 9310]))          
+      :file "tutorial04.cpp"
+      :pointmax 9311
+      :fsize 9310
+      :lastmodtime '(22767 53932 946476 337000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("vertexPosition_modelspace" variable (:type ("vec3" type (:type "class") nil nil)) nil [111 142])
+            ("vertexColor" variable (:type ("vec3" type (:type "class") nil nil)) nil [167 184])
+            ("fragmentColor" variable (:type ("vec3" type (:type "class") nil nil)) nil [247 266])
+            ("MVP" variable (:type ("mat4" type (:type "class") nil nil)) nil [324 333])
+            ("main" function (:type "void") nil [335 601]))          
+      :file "TransformVertexShader.vertexshader"
+      :pointmax 602
+      :fsize 621
+      :lastmodtime '(22766 59901 845716 154000)
+      :unmatched-syntax nil))
+  :file "!home!joaquin!Documents!Universidad!Grafica!Tutorial!ogl-OpenGL-tutorial_0015_33!tutorial04_colored_cube!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

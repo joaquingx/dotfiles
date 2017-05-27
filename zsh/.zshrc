@@ -1,7 +1,7 @@
 source $HOME/.antigen.zsh
 source $HOME/.alias
 source $HOME/.export
- 
+wmname LG3D
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 
@@ -23,3 +23,6 @@ antigen theme https://github.com/halfo/lambda-mod-zsh-theme lambda-mod
 
 # Tell antigen that you're done.
 antigen apply
+
+# Umask( Permission for newly files)
+umask 027

@@ -1,3 +1,4 @@
+
 ;; Turn off mouse interface early in startup to avoid momentary display
 
 ;; Added by Package.el.  This must come before configurations of
@@ -252,6 +253,14 @@
 ;; Conclude init by setting up specifics for the current user
 (when (file-exists-p user-settings-dir)
   (mapc 'load (directory-files user-settings-dir nil "^[^#].*el$")))
-(put 'ido-exit-minibuffer 'disabled nil)
 
 (pdf-tools-install)
+
+
+
+;; For unicode inserting!
+(require 'all-the-icons)
+(insert (all-the-icons-icon-for-file "/home/joaquin/dotfiles/polybar/.config/polybar/config"))
+;; (use-package all-the-icons)
+;; (use-package all-the-icons-dired)
+(put 'ido-exit-minibuffer 'disabled nil)

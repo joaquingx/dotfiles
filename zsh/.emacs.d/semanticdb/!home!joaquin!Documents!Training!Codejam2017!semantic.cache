@@ -1,0 +1,100 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("bits/stdc++.h" include (:system-flag t) nil [1 25])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [26 46])
+            ("ll" type
+               (:typedef ("long long")
+                :type "typedef")
+                nil [47 68])
+            ("solve" function
+               (:arguments 
+                  ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [81 88])
+                    ("n" variable (:type ("ll" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [88 94])
+                    ("k" variable (:type ("ll" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [95 100]))                  
+                :type "void")
+                nil [70 1622])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1634 1643])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1644 1657]))                  
+                :type "int")
+                nil [1625 1787]))          
+      :file "C.cc"
+      :pointmax 1788
+      :fsize 1787
+      :lastmodtime '(22760 26343 683419 753000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("bits/stdc++.h" include (:system-flag t) nil [1 25])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [26 46])
+            ("recortarBordes" function
+               (:arguments 
+                  ( ("st" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [71 81]))                  
+                :type ("string" type (:type "class") nil nil))
+                nil [49 340])
+            ("flip" function
+               (:arguments 
+                  ( ("st" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [354 364])
+                    ("k" variable (:type "int") (reparse-symbol arg-sub-list) [365 371]))                  
+                :type ("string" type (:type "class") nil nil))
+                nil [342 485])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [496 505])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [506 519]))                  
+                :type "int")
+                nil [487 1008]))          
+      :file "A.cc"
+      :pointmax 1009
+      :fsize 1008
+      :lastmodtime '(22760 30713 973549 977000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("bits/stdc++.h" include (:system-flag t) nil [1 24])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [25 45])
+            ("ll" type
+               (:typedef ("long long")
+                :type "typedef")
+                nil [46 67])
+            ("solve" function
+               (:arguments 
+                  ( ("st" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [80 90])
+                    ("data" variable (:type ("ll" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [91 99]))                  
+                :type "void")
+                nil [69 576])
+            ("main" function (:type "int") nil [578 980]))          
+      :file "B.cc"
+      :pointmax 981
+      :fsize 980
+      :lastmodtime '(22760 34154 76985 818000)
+      :unmatched-syntax nil))
+  :file "!home!joaquin!Documents!Training!Codejam2017!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

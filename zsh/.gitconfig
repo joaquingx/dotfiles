@@ -1,3 +1,5 @@
 [user]
 	name = Joaquin
 	email = joaquingc123@gmail.com
+[core]
+	editor = emacs

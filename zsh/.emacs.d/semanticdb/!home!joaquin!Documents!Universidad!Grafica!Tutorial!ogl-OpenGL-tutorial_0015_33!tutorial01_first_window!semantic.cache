@@ -1,0 +1,34 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [29 47])
+            ("stdlib.h" include (:system-flag t) nil [48 67])
+            ("GL/glew.h" include (:system-flag t) nil [85 105])
+            ("glfw3.h" include (:system-flag t) nil [123 141])
+            ("window" variable
+               (:pointer 1
+                :type ("GLFWwindow" type (:type "class") nil nil))
+                nil [142 161])
+            ("glm/glm.hpp" include (:system-flag t) nil [178 200])
+            ("glm" using (:type ("glm" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [201 221])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [233 239]))                  
+                :type "int")
+                nil [223 2036]))          
+      :file "tutorial01.cpp"
+      :pointmax 2037
+      :fsize 2036
+      :lastmodtime '(22762 50852 837005 109000)
+      :unmatched-syntax nil))
+  :file "!home!joaquin!Documents!Universidad!Grafica!Tutorial!ogl-OpenGL-tutorial_0015_33!tutorial01_first_window!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

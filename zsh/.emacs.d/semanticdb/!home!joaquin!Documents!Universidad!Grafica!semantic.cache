@@ -1,0 +1,625 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("GL/glut.h" include (:system-flag t) nil [730 750])
+            ("stdlib.h" include (:system-flag t) nil [751 770])
+            ("stdio.h" include (:system-flag t) nil [771 789])
+            ("math.h" include (:system-flag t) nil [790 807])
+            ("size" variable (:constant-flag t) nil [959 963])
+            ("w_height" variable
+               (:default-value "800"
+                :type "int")
+                nil [1152 1169])
+            ("w_width" variable
+               (:default-value "800"
+                :type "int")
+                nil [1170 1186])
+            ("display_count" variable
+               (:default-value "0"
+                :type "int")
+                nil [1355 1375])
+            ("theta" variable
+               (:default-value "0.0"
+                :type "float")
+                nil [1574 1591])
+            ("timer_period_in_ms" variable
+               (:default-value "100"
+                :type "int")
+                nil [1620 1647])
+            ("square_x" variable (:type "int") nil [1891 1914])
+            ("square_y" variable (:type "int") nil [1891 1914])
+            ("square_dx" variable
+               (:default-value "1"
+                :type "int")
+                nil [1937 1955])
+            ("reshapeCallback" function
+               (:arguments 
+                  ( ("width" variable (:type "int") (reparse-symbol arg-sub-list) [2296 2306])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [2307 2318]))                  
+                :type "void")
+                nil [2274 2400])
+            ("motionCallBack" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [2569 2575])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [2576 2582]))                  
+                :type "void")
+                nil [2549 2797])
+            ("mouseCallBack" function
+               (:arguments 
+                  ( ("btn" variable (:type "int") (reparse-symbol arg-sub-list) [2958 2966])
+                    ("state" variable (:type "int") (reparse-symbol arg-sub-list) [2967 2977])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [2978 2984])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [2985 2991]))                  
+                :type "void")
+                nil [2939 3137])
+            ("displayCircle" function
+               (:arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [3303 3311])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [3312 3321])
+                    ("rad" variable (:type "float") (reparse-symbol arg-sub-list) [3322 3332])
+                    ("prec" variable (:type "float") (reparse-symbol arg-sub-list) [3333 3344]))                  
+                :type "void")
+                nil [3284 3536])
+            ("idleCallBack" function (:type "void") nil [3538 3766])
+            ("keyboardCallBack" function
+               (:arguments 
+                  ( ("key" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [3789 3807])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [3808 3814])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [3815 3821]))                  
+                :type "void")
+                nil [3767 4275])
+            ("displayCallBack" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4441 4446]))                  
+                :type "void")
+                nil [4420 4969])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [5110 5119])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5120 5132]))                  
+                :type "int")
+                nil [5101 6356]))          
+      :file "ejemplo.cpp"
+      :pointmax 6357
+      :fsize 6356
+      :lastmodtime '(22749 18155 327230 634000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("size" . ((number "50.0" 964 . 968)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("GL/gl.h" include (:system-flag t) nil [1 19])
+            ("GL/glut.h" include (:system-flag t) nil [20 40])
+            ("display" function (:type "void") nil [42 60])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [71 80])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [81 93]))                  
+                :type "int")
+                nil [62 168]))          
+      :file "nuevo.cpp"
+      :pointmax 171
+      :fsize 170
+      :lastmodtime '(22740 5550 353300 357000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("GL/gl.h" include (:system-flag t) nil [61 79])
+            ("GL/glut.h" include (:system-flag t) nil [80 100])
+            ("stdio.h" include nil nil [101 119])
+            ("math.h" include (:system-flag t) nil [120 137])
+            ("KEY_ESC" variable (:constant-flag t) nil [147 154])
+            ("size" variable (:constant-flag t) nil [166 170])
+            ("timer_period_in_ms" variable
+               (:default-value "100"
+                :type "int")
+                nil [177 204])
+            ("circle_x" variable (:type "int") nil [205 228])
+            ("circle_y" variable (:type "int") nil [205 228])
+            ("circle_dx" variable
+               (:default-value "1"
+                :type "int")
+                nil [251 269])
+            ("display_count" variable
+               (:default-value "0"
+                :type "int")
+                nil [301 321])
+            ("theta" variable
+               (:default-value "0.0"
+                :type "float")
+                nil [322 339])
+            ("idleCallBack" function (:type "void") nil [368 565])
+            ("reshapeCallback" function
+               (:arguments 
+                  ( ("width" variable (:type "int") (reparse-symbol arg-sub-list) [589 599])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [600 611]))                  
+                :type "void")
+                nil [567 699])
+            ("displayCallBack" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [722 727]))                  
+                :type "void")
+                nil [701 1195])
+            ("displayGizmo" function (:type "void") nil [1222 1403])
+            ("keyboardCallBack" function
+               (:arguments 
+                  ( ("key" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [1427 1445])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [1446 1452])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [1453 1459]))                  
+                :type "void")
+                nil [1405 1671])
+            ("displayRectangle" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [1695 1701])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [1702 1708])
+                    ("tam" variable (:type "int") (reparse-symbol arg-sub-list) [1709 1717]))                  
+                :type "void")
+                nil [1673 1922])
+            ("displayCircle" function
+               (:arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [1943 1951])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [1952 1961])
+                    ("rad" variable (:type "float") (reparse-symbol arg-sub-list) [1962 1972])
+                    ("prec" variable (:type "float") (reparse-symbol arg-sub-list) [1973 1984]))                  
+                :type "void")
+                nil [1924 2176])
+            ("displayNCircles" function
+               (:arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [2199 2207])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [2208 2216])
+                    ("cant" variable (:type "int") (reparse-symbol arg-sub-list) [2217 2227])
+                    ("rad" variable (:type "float") (reparse-symbol arg-sub-list) [2228 2239])
+                    ("red" variable (:type "float") (reparse-symbol arg-sub-list) [2240 2250]))                  
+                :type "void")
+                nil [2178 2416])
+            ("displayStripCircles" function
+               (:arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [2443 2451])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [2452 2460])
+                    ("cant" variable (:type "int") (reparse-symbol arg-sub-list) [2461 2471])
+                    ("rad" variable (:type "float") (reparse-symbol arg-sub-list) [2472 2483])
+                    ("red" variable (:type "float") (reparse-symbol arg-sub-list) [2484 2494]))                  
+                :type "void")
+                nil [2418 2651])
+            ("displayStripAngleCircles" function
+               (:arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [2683 2691])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [2692 2700])
+                    ("cant" variable (:type "int") (reparse-symbol arg-sub-list) [2701 2711])
+                    ("rad" variable (:type "float") (reparse-symbol arg-sub-list) [2712 2723])
+                    ("red" variable (:type "float") (reparse-symbol arg-sub-list) [2724 2734])
+                    ("theta" variable (:type "float") (reparse-symbol arg-sub-list) [2735 2747]))                  
+                :type "void")
+                nil [2653 3048])
+            ("glPaint" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3099 3104]))                  
+                :type "void")
+                nil [3086 3807])
+            ("idle" function (:type "void") nil [3809 3849])
+            ("init_GL" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3897 3902]))                  
+                :type "void")
+                nil [3884 4106])
+            ("window_redraw" function
+               (:arguments 
+                  ( ("width" variable (:type ("GLsizei" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4174 4188])
+                    ("height" variable (:type ("GLsizei" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4189 4204]))                  
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [4153 4454])
+            ("window_key" function
+               (:arguments 
+                  ( ("key" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [4474 4492])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [4493 4499])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [4500 4506]))                  
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [4456 4595])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [4635 4644])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4645 4657]))                  
+                :type "int")
+                nil [4626 5242]))          
+      :file "pendulo.cpp"
+      :pointmax 5243
+      :fsize 5469
+      :lastmodtime '(22749 17647 790575 384000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("KEY_ESC" . ((number "27" 155 . 157)))
+          ("size" . ((number "50.0" 171 . 175)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [120 144])
+            ("math.h" include (:system-flag t) nil [169 186])
+            ("GL/gl.h" include (:system-flag t) nil [187 205])
+            ("GL/glut.h" include (:system-flag t) nil [206 226])
+            ("stdlib.h" include (:system-flag t) nil [227 246])
+            ("stdio.h" include (:system-flag t) nil [247 265])
+            ("iostream" include (:system-flag t) nil [266 285])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [308 328])
+            ("RED" variable (:constant-flag t) nil [338 341])
+            ("GREEN" variable (:constant-flag t) nil [352 357])
+            ("BLUE" variable (:constant-flag t) nil [368 372])
+            ("ALPHA" variable (:constant-flag t) nil [383 388])
+            ("ECHAP" variable (:constant-flag t) nil [400 405])
+            ("init_scene" function
+               (:prototype-flag t
+                :type "void")
+                nil [409 427])
+            ("render_scene" function
+               (:prototype-flag t
+                :type "void")
+                nil [428 448])
+            ("initGL" function
+               (:prototype-flag t
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [449 465])
+            ("window_display" function
+               (:prototype-flag t
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [466 490])
+            ("window_reshape" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("width" variable (:type ("GLsizei" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [513 527])
+                    ("height" variable (:type ("GLsizei" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [528 543]))                  
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [491 544])
+            ("window_key" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("key" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [563 581])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [582 588])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [589 595]))                  
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [545 596])
+            ("window_idle" function
+               (:prototype-flag t
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [630 651])
+            ("a" variable
+               (:default-value "0"
+                :type "float")
+                nil [653 711])
+            ("b" variable
+               (:default-value "0"
+                :type "float")
+                nil [653 711])
+            ("timo" variable
+               (:default-value "0"
+                :type "float")
+                nil [653 711])
+            ("timobase" variable
+               (:default-value "0"
+                :type "float")
+                nil [653 711])
+            ("c" variable
+               (:default-value "0"
+                :type "float")
+                nil [653 711])
+            ("vt" variable
+               (:default-value "0"
+                :type "float")
+                nil [653 711])
+            ("vs" variable
+               (:default-value "0"
+                :type "float")
+                nil [653 711])
+            ("vl" variable
+               (:default-value "0"
+                :type "float")
+                nil [653 711])
+            ("vm" variable
+               (:default-value "0"
+                :type "float")
+                nil [653 711])
+            ("mode" variable
+               (:default-value "0"
+                :type "bool")
+                nil [712 724])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [735 744])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [745 757]))                  
+                :type "int")
+                nil [726 1196])
+            ("initGL" function (:type ("GLvoid" type (:type "class") nil nil)) nil [1200 1685])
+            ("TeaRotating" function (:type "void") nil [1688 1790])
+            ("TeaCircleRotating" function (:type "void") nil [1792 2048])
+            ("TeaCircleToro" function (:type "void") nil [2050 2417])
+            ("sistemaSolar" function (:type "void") nil [2419 3121])
+            ("window_display" function (:type ("GLvoid" type (:type "class") nil nil)) nil [3123 3532])
+            ("window_reshape" function
+               (:arguments 
+                  ( ("width" variable (:type ("GLsizei" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3556 3570])
+                    ("height" variable (:type ("GLsizei" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3571 3586]))                  
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [3534 3764])
+            ("init_scene" function (:type "void") nil [3768 3790])
+            ("window_key" function
+               (:arguments 
+                  ( ("key" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [3810 3828])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [3829 3835])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [3836 3842]))                  
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [3792 3975])
+            ("window_idle" function (:type ("GLvoid" type (:type "class") nil nil)) nil [4010 4059]))          
+      :file "tp2.cpp"
+      :pointmax 4060
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("GLUT_DISABLE_ATEXIT_HACK")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("GLUT_DISABLE_ATEXIT_HACK" variable (:constant-flag t) nil [9 33])
+            ("math.h" include (:system-flag t) nil [58 75])
+            ("GL/gl.h" include (:system-flag t) nil [76 94])
+            ("GL/glut.h" include (:system-flag t) nil [95 115])
+            ("stdlib.h" include (:system-flag t) nil [116 135])
+            ("stdio.h" include (:system-flag t) nil [136 154])
+            ("iostream" include (:system-flag t) nil [155 174])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [197 217])
+            ("RED" variable (:constant-flag t) nil [227 230])
+            ("GREEN" variable (:constant-flag t) nil [241 246])
+            ("BLUE" variable (:constant-flag t) nil [257 261])
+            ("ALPHA" variable (:constant-flag t) nil [272 277])
+            ("ECHAP" variable (:constant-flag t) nil [289 294])
+            ("init_scene" function
+               (:prototype-flag t
+                :type "void")
+                nil [298 316])
+            ("render_scene" function
+               (:prototype-flag t
+                :type "void")
+                nil [317 337])
+            ("initGL" function
+               (:prototype-flag t
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [338 354])
+            ("window_display" function
+               (:prototype-flag t
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [355 379])
+            ("window_reshape" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("width" variable (:type ("GLsizei" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [402 416])
+                    ("height" variable (:type ("GLsizei" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [417 432]))                  
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [380 433])
+            ("window_key" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("key" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [452 470])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [471 477])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [478 484]))                  
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [434 485])
+            ("window_idle" function
+               (:prototype-flag t
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [519 540])
+            ("a" variable
+               (:default-value "0"
+                :type "float")
+                nil [542 580])
+            ("b" variable
+               (:default-value "0"
+                :type "float")
+                nil [542 580])
+            ("timo" variable
+               (:default-value "0"
+                :type "float")
+                nil [542 580])
+            ("timobase" variable
+               (:default-value "0"
+                :type "float")
+                nil [542 580])
+            ("c" variable
+               (:default-value "0"
+                :type "float")
+                nil [542 580])
+            ("mode" variable
+               (:default-value "0"
+                :type "bool")
+                nil [581 593])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [604 613])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [614 626]))                  
+                :type "int")
+                nil [595 1065])
+            ("initGL" function (:type ("GLvoid" type (:type "class") nil nil)) nil [1069 1554])
+            ("TeaRotating" function
+               (:arguments 
+                  ( ("dx" variable (:type "float") (reparse-symbol arg-sub-list) [1574 1583]))                  
+                :type "void")
+                nil [1557 1666])
+            ("TeaCircleRotating" function
+               (:arguments 
+                  ( ("da" variable (:type "float") (reparse-symbol arg-sub-list) [1691 1700])
+                    ("db" variable (:type "float") (reparse-symbol arg-sub-list) [1700 1709]))                  
+                :type "void")
+                nil [1668 1941])
+            ("TeaCircleToro" function
+               (:arguments 
+                  ( ("da" variable (:type "float") (reparse-symbol arg-sub-list) [1962 1972])
+                    ("db" variable (:type "float") (reparse-symbol arg-sub-list) [1973 1983])
+                    ("dc" variable (:type "float") (reparse-symbol arg-sub-list) [1984 1993]))                  
+                :type "void")
+                nil [1943 2335])
+            ("window_display" function (:type ("GLvoid" type (:type "class") nil nil)) nil [2337 2685])
+            ("window_reshape" function
+               (:arguments 
+                  ( ("width" variable (:type ("GLsizei" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2709 2723])
+                    ("height" variable (:type ("GLsizei" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2724 2739]))                  
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [2687 2917])
+            ("init_scene" function (:type "void") nil [2921 2943])
+            ("window_key" function
+               (:arguments 
+                  ( ("key" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [2963 2981])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [2982 2988])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [2989 2995]))                  
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [2945 3128])
+            ("window_idle" function (:type ("GLvoid" type (:type "class") nil nil)) nil [3163 3212]))          
+      :file "first.cc"
+      :pointmax 3213
+      :fsize 3212
+      :lastmodtime '(22757 50842 922776 142000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("ECHAP" . ((number "27" 295 . 297)))
+          ("GREEN" . ((number "0" 247 . 248)))
+          ("BLUE" . ((number "0" 262 . 263)))
+          ("GLUT_DISABLE_ATEXIT_HACK")
+          ("ALPHA" . ((number "1" 278 . 279)))
+          ("RED" . ((number "0" 231 . 232)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("GL/gl.h" include (:system-flag t) nil [181 199])
+            ("GL/glut.h" include (:system-flag t) nil [200 220])
+            ("stdio.h" include nil nil [221 239])
+            ("math.h" include (:system-flag t) nil [240 257])
+            ("KEY_ESC" variable (:constant-flag t) nil [267 274])
+            ("displayRectangle" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [302 308])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [309 315])
+                    ("tam" variable (:type "int") (reparse-symbol arg-sub-list) [316 324]))                  
+                :type "void")
+                nil [280 532])
+            ("displayCircle" function
+               (:arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [553 561])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [562 571])
+                    ("rad" variable (:type "float") (reparse-symbol arg-sub-list) [572 582])
+                    ("prec" variable (:type "float") (reparse-symbol arg-sub-list) [583 594]))                  
+                :type "void")
+                nil [534 786])
+            ("displayNCircles" function
+               (:arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [809 817])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [818 826])
+                    ("cant" variable (:type "int") (reparse-symbol arg-sub-list) [827 837])
+                    ("rad" variable (:type "float") (reparse-symbol arg-sub-list) [838 849])
+                    ("red" variable (:type "float") (reparse-symbol arg-sub-list) [850 860]))                  
+                :type "void")
+                nil [788 1026])
+            ("displayStripCircles" function
+               (:arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [1053 1061])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [1062 1070])
+                    ("cant" variable (:type "int") (reparse-symbol arg-sub-list) [1071 1081])
+                    ("rad" variable (:type "float") (reparse-symbol arg-sub-list) [1082 1093])
+                    ("red" variable (:type "float") (reparse-symbol arg-sub-list) [1094 1104]))                  
+                :type "void")
+                nil [1028 1261])
+            ("displayStripAngleCircles" function
+               (:arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [1293 1301])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [1302 1310])
+                    ("cant" variable (:type "int") (reparse-symbol arg-sub-list) [1311 1321])
+                    ("rad" variable (:type "float") (reparse-symbol arg-sub-list) [1322 1333])
+                    ("red" variable (:type "float") (reparse-symbol arg-sub-list) [1334 1344])
+                    ("theta" variable (:type "float") (reparse-symbol arg-sub-list) [1345 1357]))                  
+                :type "void")
+                nil [1263 1688])
+            ("glPaint" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1739 1744]))                  
+                :type "void")
+                nil [1726 2070])
+            ("init_GL" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2085 2090]))                  
+                :type "void")
+                nil [2072 2292])
+            ("window_redraw" function
+               (:arguments 
+                  ( ("width" variable (:type ("GLsizei" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2360 2374])
+                    ("height" variable (:type ("GLsizei" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2375 2390]))                  
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [2339 2643])
+            ("window_key" function
+               (:arguments 
+                  ( ("key" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [2663 2681])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [2682 2688])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [2689 2695]))                  
+                :type ("GLvoid" type (:type "class") nil nil))
+                nil [2645 2784])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2824 2833])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2834 2846]))                  
+                :type "int")
+                nil [2815 3412]))          
+      :file "JoaquinGarmendiaCabrera.cpp"
+      :pointmax 3413
+      :fsize 3552
+      :lastmodtime '(22749 19908 253857 865000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("KEY_ESC" . ((number "27" 275 . 277)))
+          )
+))
+  :file "!home!joaquin!Documents!Universidad!Grafica!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

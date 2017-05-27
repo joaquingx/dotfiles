@@ -1,0 +1,1 @@
+("~/dotfiles/zsh/.emacs.d/" "~/dotfiles/" "~/Documents/Universidad/Grafica/Tutorial/ogl-OpenGL-tutorial_0015_33/" "~/Documents/Training/" "~/Documents/Competitive-Algorithms/" "~/Documents/Universidad/Paralelos/")

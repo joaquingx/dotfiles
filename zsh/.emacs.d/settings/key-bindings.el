@@ -345,6 +345,7 @@
 (global-set-key (kbd "C-x C-o ss") (ffip-create-pattern-file-finder "*.scss"))
 (global-set-key (kbd "C-x C-o co") (ffip-create-pattern-file-finder "*.conf"))
 (global-set-key (kbd "C-x C-o j2") (ffip-create-pattern-file-finder "*.j2"))
+
 (global-set-key (kbd "C-x C-o sh") (ffip-create-pattern-file-finder "*.sh"))
 (global-set-key (kbd "C-x C-o ic") (ffip-create-pattern-file-finder "*.ico"))
 (global-set-key (kbd "C-x C-o sv") (ffip-create-pattern-file-finder "*.svg"))
@@ -357,8 +358,8 @@
 
 ;; Configuration of C(C++)-Major-Mode
 
-(add-hook 'c-mode-hook
-          (lambda ()  ( local-set-key  (kbd "<return>") #'open-line-below ) )
-          )
+;; (add-hook 'c-mode-hook
+;;           (lambda ()  ( local-set-key  (kbd "<return>") #'open-line-below ) )
+;;           )
 
 (provide 'key-bindings)

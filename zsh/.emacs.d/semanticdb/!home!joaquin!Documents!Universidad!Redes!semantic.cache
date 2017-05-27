@@ -1,0 +1,513 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [152 170])
+            ("string.h" include (:system-flag t) nil [171 190])
+            ("stdlib.h" include (:system-flag t) nil [202 221])
+            ("errno.h" include (:system-flag t) nil [222 240])
+            ("unistd.h" include (:system-flag t) nil [241 260])
+            ("arpa/inet.h" include (:system-flag t) nil [271 293])
+            ("sys/types.h" include (:system-flag t) nil [305 327])
+            ("sys/socket.h" include (:system-flag t) nil [328 351])
+            ("netinet/in.h" include (:system-flag t) nil [352 375])
+            ("sys/time.h" include (:system-flag t) nil [376 397])
+            ("TRUE" variable (:constant-flag t) nil [442 446])
+            ("FALSE" variable (:constant-flag t) nil [459 464])
+            ("PORT" variable (:constant-flag t) nil [476 480])
+            ("BOARD_ROWS" variable (:constant-flag t) nil [494 504])
+            ("BOARD_COLS" variable (:constant-flag t) nil [516 526])
+            ("printBoard" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [547 559]))                  
+                :type "void")
+                nil [531 560])
+            ("takeTurn" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [574 586])
+                    ("player" variable (:type "int") (reparse-symbol arg-sub-list) [587 598])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [599 604]))                  
+                :type "int")
+                nil [561 605])
+            ("checkWin" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [619 631]))                  
+                :type "int")
+                nil [606 632])
+            ("checkFour" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [647 659])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [660 664])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [665 669])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [670 674])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [675 679]))                  
+                :type "int")
+                nil [633 680])
+            ("horizontalCheck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [701 713]))                  
+                :type "int")
+                nil [681 714])
+            ("verticalCheck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [733 745]))                  
+                :type "int")
+                nil [715 746])
+            ("diagonalCheck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [765 777]))                  
+                :type "int")
+                nil [747 778])
+            ("logic" function
+               (:prototype-flag t
+                :type "void")
+                nil [779 792])
+            ("doProtocol" function
+               (:prototype-flag t
+                :type "void")
+                nil [793 811])
+            ("mapping" variable
+               (:dereference 2
+                :type "char")
+                nil [813 836])
+            ("board" variable
+               (:dereference 1
+                :type "char")
+                nil [837 873])
+            ("PIECES" variable
+               (:pointer 1
+                :constant-flag t
+                :default-value "\"XO#@*%$\""
+                :type "char")
+                nil [874 905])
+            ("act" variable
+               (:default-value "0"
+                :type "int")
+                nil [906 934])
+            ("client_socket" variable
+               (:dereference 1
+                :type "int")
+                nil [906 934])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [945 955])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [956 969]))                  
+                :type "int")
+                nil [936 7364])
+            ("doProtocol" function
+               (:arguments 
+                  ( ("who" variable (:type "int") (reparse-symbol arg-sub-list) [7382 7390])
+                    ("i" variable (:type "int") (reparse-symbol arg-sub-list) [7390 7396])
+                    ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7397 7408])
+                    ("sd" variable (:type "int") (reparse-symbol arg-sub-list) [7408 7415]))                  
+                :type "void")
+                nil [7366 8136])
+            ("logic" function (:type "void") nil [8139 8639])
+            ("printBoard" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [8656 8668]))                  
+                :type "void")
+                nil [8640 9002])
+            ("takeTurn" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [9016 9028])
+                    ("player" variable (:type "int") (reparse-symbol arg-sub-list) [9029 9040])
+                    ("col" variable (:type "int") (reparse-symbol arg-sub-list) [9041 9049]))                  
+                :type "int")
+                nil [9003 9259])
+            ("checkWin" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [9273 9285]))                  
+                :type "int")
+                nil [9260 9372])
+            ("checkFour" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [9387 9399])
+                    ("a" variable (:type "int") (reparse-symbol arg-sub-list) [9400 9406])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [9407 9413])
+                    ("c" variable (:type "int") (reparse-symbol arg-sub-list) [9414 9420])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [9421 9427]))                  
+                :type "int")
+                nil [9373 9531])
+            ("horizontalCheck" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [9552 9564]))                  
+                :type "int")
+                nil [9532 9865])
+            ("verticalCheck" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [9884 9896]))                  
+                :type "int")
+                nil [9866 10201])
+            ("diagonalCheck" function
+               (:arguments 
+                  ( ("board" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [10220 10232]))                  
+                :type "int")
+                nil [10202 10709]))          
+      :file "multserver.c"
+      :pointmax 10710
+      :fsize 10709
+      :lastmodtime '(22760 1291 589771 343000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("TRUE" . ((number "1" 449 . 450)))
+          ("FALSE" . ((number "0" 466 . 467)))
+          ("PORT" . ((number "8888" 481 . 485)))
+          ("BOARD_ROWS" . ((number "10" 505 . 507)))
+          ("BOARD_COLS" . ((number "10" 527 . 529)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("sys/types.h" include (:system-flag t) nil [24 46])
+            ("sys/socket.h" include (:system-flag t) nil [47 70])
+            ("netinet/in.h" include (:system-flag t) nil [71 94])
+            ("arpa/inet.h" include (:system-flag t) nil [95 117])
+            ("stdio.h" include (:system-flag t) nil [118 136])
+            ("stdlib.h" include (:system-flag t) nil [137 156])
+            ("unistd.h" include (:system-flag t) nil [157 176])
+            ("errno.h" include (:system-flag t) nil [177 195])
+            ("string.h" include (:system-flag t) nil [196 215])
+            ("stSockAddr" variable (:type ("sockaddr_in" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [217 247])
+            ("cli_addr" variable (:type ("sockaddr_in" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [248 276])
+            ("client" variable (:type "int") nil [277 288])
+            ("SocketFD" variable (:type "int") nil [289 302])
+            ("buffer" variable
+               (:dereference 1
+                :type "char")
+                nil [303 320])
+            ("buffer2" variable
+               (:dereference 1
+                :type "char")
+                nil [321 341])
+            ("n" variable (:type "int") nil [342 348])
+            ("Matrix" variable
+               (:dereference 2
+                :type "char")
+                nil [349 367])
+            ("dx" variable
+               (:dereference 1
+                :default-value "{1,-1,0,0,1,1,-1,-1}"
+                :type "int")
+                nil [368 400])
+            ("dy" variable
+               (:dereference 1
+                :default-value "{0,0,1,-1,1,-1,1,-1}"
+                :type "int")
+                nil [401 433])
+            ("someWin" function (:type "int") nil [436 1223])
+            ("initMatrix" function (:type "void") nil [1225 1346])
+            ("printMatrix" function (:type "void") nil [1348 1505])
+            ("validacionSocket" function (:type "void") nil [1507 1754])
+            ("validacionBind" function (:type "void") nil [1757 1993])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2005 2010]))                  
+                :type "int")
+                nil [1996 4553]))          
+      :file "server.c"
+      :pointmax 4554
+      :fsize 4553
+      :lastmodtime '(22754 37690 193772 748000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("sys/types.h" include (:system-flag t) nil [25 47])
+            ("sys/socket.h" include (:system-flag t) nil [48 71])
+            ("netinet/in.h" include (:system-flag t) nil [72 95])
+            ("arpa/inet.h" include (:system-flag t) nil [96 118])
+            ("stdio.h" include (:system-flag t) nil [119 137])
+            ("stdlib.h" include (:system-flag t) nil [138 157])
+            ("string.h" include (:system-flag t) nil [158 177])
+            ("unistd.h" include (:system-flag t) nil [178 197])
+            ("Matrix" variable
+               (:dereference 2
+                :type "char")
+                nil [199 217])
+            ("dx" variable
+               (:dereference 1
+                :default-value "{1,-1,0,0,1,1,-1,-1}"
+                :type "int")
+                nil [218 250])
+            ("dy" variable
+               (:dereference 1
+                :default-value "{0,0,1,-1,1,-1,1,-1}"
+                :type "int")
+                nil [251 283])
+            ("someWin" function (:type "int") nil [286 1025])
+            ("initMatrix" function (:type "void") nil [1027 1148])
+            ("printMatrix" function (:type "void") nil [1150 1307])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1319 1328])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1329 1342]))                  
+                :type "int")
+                nil [1310 3803]))          
+      :file "client.c"
+      :pointmax 3804
+      :fsize 3803
+      :lastmodtime '(22754 37830 283766 696000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("sys/types.h" include (:system-flag t) nil [27 51])
+            ("sys/socket.h" include (:system-flag t) nil [52 77])
+            ("netinet/in.h" include (:system-flag t) nil [78 103])
+            ("arpa/inet.h" include (:system-flag t) nil [104 128])
+            ("stdio.h" include (:system-flag t) nil [129 149])
+            ("stdlib.h" include (:system-flag t) nil [150 171])
+            ("string.h" include (:system-flag t) nil [172 193])
+            ("unistd.h" include (:system-flag t) nil [194 215])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [229 238])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [239 252]))                  
+                :type "int")
+                nil [220 1719]))          
+      :file "client.cc"
+      :pointmax 1720
+      :fsize 1719
+      :lastmodtime '(22758 63733 544257 611000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("sys/types.h" include (:system-flag t) nil [24 46])
+            ("sys/socket.h" include (:system-flag t) nil [47 70])
+            ("netinet/in.h" include (:system-flag t) nil [71 94])
+            ("arpa/inet.h" include (:system-flag t) nil [95 117])
+            ("stdio.h" include (:system-flag t) nil [118 136])
+            ("stdlib.h" include (:system-flag t) nil [137 156])
+            ("string.h" include (:system-flag t) nil [157 176])
+            ("unistd.h" include (:system-flag t) nil [177 196])
+            ("SocketEscuchador" variable (:type "int") nil [198 219])
+            ("escuchame" function
+               (:pointer 1
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [236 246]))                  
+                :type "void")
+                nil [220 814])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [825 834])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [835 848]))                  
+                :type "int")
+                nil [816 2910]))          
+      :file "cli.c"
+      :pointmax 2911
+      :fsize 2910
+      :lastmodtime '(22760 1449 303109 376000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("sys/types.h" include (:system-flag t) nil [24 46])
+            ("sys/socket.h" include (:system-flag t) nil [47 70])
+            ("netinet/in.h" include (:system-flag t) nil [71 94])
+            ("arpa/inet.h" include (:system-flag t) nil [95 117])
+            ("stdio.h" include (:system-flag t) nil [118 136])
+            ("stdlib.h" include (:system-flag t) nil [137 156])
+            ("unistd.h" include (:system-flag t) nil [157 176])
+            ("errno.h" include (:system-flag t) nil [177 195])
+            ("string.h" include (:system-flag t) nil [196 215])
+            ("MAXN" variable (:constant-flag t) nil [224 228])
+            ("stSockAddrUser" variable (:type ("sockaddr_in" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [233 267])
+            ("stSockAddrServer" variable (:type ("sockaddr_in" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [268 304])
+            ("cli_addr" variable (:type ("sockaddr_in" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [305 333])
+            ("Client" variable (:type "int") nil [334 405])
+            ("SocketUser" variable (:type "int") nil [334 405])
+            ("SocketServer" variable (:type "int") nil [334 405])
+            ("n" variable (:type "int") nil [334 405])
+            ("UserPort" variable (:type "int") nil [334 405])
+            ("ServerPort" variable (:type "int") nil [334 405])
+            ("Res" variable (:type "int") nil [334 405])
+            ("ConnectFD" variable (:type "int") nil [334 405])
+            ("buffer" variable
+               (:dereference 1
+                :type "char")
+                nil [406 453])
+            ("sbuffer" variable
+               (:dereference 1
+                :type "char")
+                nil [406 453])
+            ("ssbuffer" variable
+               (:dereference 1
+                :type "char")
+                nil [406 453])
+            ("escuchame" function
+               (:pointer 1
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [471 481]))                  
+                :type "void")
+                nil [455 1091])
+            ("decime" function
+               (:pointer 1
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1106 1116]))                  
+                :type "void")
+                nil [1093 1628])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1639 1644]))                  
+                :type "int")
+                nil [1630 4158])
+            ("printf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strerror" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3770 3783]))                  
+                :type "int")
+                nil [3732 3785])
+            ("printf" function
+               (:prototype-flag t
+                :type "int")
+                nil [3801 3844])
+            ("err" variable
+               (:default-value "pthread_create(&(tid[0]), NULL, &escuchame, NULL)"
+                :type "int")
+                nil [3849 3905])
+            ("printf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strerror" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3968 3981]))                  
+                :type "int")
+                nil [3930 3983])
+            ("printf" function
+               (:prototype-flag t
+                :type "int")
+                nil [3999 4042])
+            ("close" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("ConnectFD" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4066 4076]))                  
+                :type "int")
+                nil [4060 4077])
+            ("close" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("SocketServer" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4086 4099]))                  
+                :type "int")
+                nil [4080 4100])
+            ("shutdown" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("SocketUser" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4112 4123])
+                    ("" variable (:type ("SHUT_RDWR" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4124 4134]))                  
+                :type "int")
+                nil [4103 4135])
+            ("close" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("SocketUser" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4144 4155]))                  
+                :type "int")
+                nil [4138 4156]))          
+      :file "msn.c"
+      :pointmax 4159
+      :fsize 4158
+      :lastmodtime '(22741 23626 379900 672000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAXN" . ((number "256" 229 . 232)))
+          )
+))
+  :file "!home!joaquin!Documents!Universidad!Redes!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
