@@ -193,6 +193,7 @@
         god-local-mode
         goto-line-with-feedback
         handle-switch-frame
+        ido-find-file
         ido-switch-buffer
         js2r-extract-var
         js2r-rename-var

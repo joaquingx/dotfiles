@@ -2,12 +2,6 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/joaquin/Documents/Universidad/Boids/JuegoGrafica/" . "Final/")
- ("/home/joaquin/Documents/Universidad/Boids/" . "JuegoGrafica/")
- ("/home/joaquin/Documents/Universidad/juego/JuegoGrafica/" . "Final/")
- ("/home/joaquin/Documents/Universidad/juego/" . "JuegoGrafica/")
- ("/home/joaquin/Documents/Universidad/Huffman/build/" . "CMakeFiles/")
- ("/home/joaquin/Documents/Universidad/Huffman/" . "Utils/")
  ("/home/joaquin/Documents/Algoritmos-Paralelos/GPU/" . "Chapter 4/")
  ("/home/joaquin/Documents/Algoritmos-Paralelos/" . "Chapter 4/")
  ("/home/joaquin/Documents/blackarch/packages/" . "amoco/")
@@ -45,7 +39,7 @@
  ("/home/joaquin/Documents/Universidad/Grafica/Tutorial/ogl-OpenGL-tutorial_0015_33/build/" . "CMakeFiles/")
  ("/home/joaquin/Documents/Universidad/Grafica/Tutorial/ogl-OpenGL-tutorial_0015_33/" . "tutorial06_keyboard_and_mouse/")
  ("/home/joaquin/Documents/Universidad/Grafica/Tutorial/" . "ogl-OpenGL-tutorial_0015_33/")
- ("/home/joaquin/Documents/Universidad/Grafica/" . "Final/")
+ ("/home/joaquin/Documents/Universidad/Grafica/" . "Resources/")
  ("/home/joaquin/dotfiles/zsh/.emacs.d/" . "settings/")
  ("/home/joaquin/Documents/Training/Codeforces/" . "round403/")
  ("/home/joaquin/.config/" . "bspwm/")
@@ -63,54 +57,31 @@
  ("/usr/share/" . "lightdm-webkit/")
  ("/usr/" . "share/")
  ("/etc/" . "zsh/")
- ("/home/joaquin/Documents/Universidad/Paralelos/" . "Laboratorio08/")
+ ("/home/joaquin/Documents/Universidad/Paralelos/" . "Laboratorio07/")
  ("/home/joaquin/.emacs.d/elpa/" . "solarized-theme-20161222.109/")
  ("/home/joaquin/dotfiles/scripts/.config/" . "scripts/")
  ("/home/joaquin/dotfiles/scripts/" . ".config/")
  ("/home/joaquin/dotfiles/" . "polybar/")
- ("/home/joaquin/Downloads/" . "tarea05/")
+ ("/home/joaquin/Downloads/" . "zombie/")
  ("/home/joaquin/Documents/Competitive-Algorithms/" . "Algoritmos/")
  ("/home/joaquin/Documents/Training/" . "Codeforces/")
  ("/home/joaquin/.emacs.d/site-lisp/" . "skewer-mode/")
  ("/home/joaquin/.emacs.d/" . "settings/")
- ("/home/joaquin/Documents/Universidad/" . "Huffman/")
+ ("/home/joaquin/Documents/Universidad/" . "GPUSCC/")
  ("/home/" . "joaquin/")
- ("/" . "etc/")
- ("/home/joaquin/Documents/" . #("Universidad/" 0 3 (face flx-highlight-face)))
- ("/home/joaquin/" . "huffman/")
+ ("/" . "home/")
+ ("/home/joaquin/Documents/" . "Universidad/")
+ ("/home/joaquin/" . ".ssh/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- #("/home/joaquin/Documents/Universidad/Huffman/build/" 44 47 (face flx-highlight-face))
- "/home/joaquin/Documents/Universidad/Huffman/"
- "/home/joaquin/Documents/Universidad/Huffman/Utils/"
- "/home/joaquin/huffman/"
- "/home/joaquin/Documents/Universidad/Boids/JuegoGrafica/Final/"
- "/home/joaquin/Documents/Universidad/Boids/JuegoGrafica/Resources/"
- "/home/joaquin/Documents/Universidad/Boids/JuegoGrafica/Framework/"
- "/home/joaquin/Documents/Universidad/Paralelos/Laboratorio08/"
- "/home/joaquin/Documents/Universidad/Grafica/Final/"
- "/home/joaquin/Documents/Universidad/DistributedGraph/"
- "/home/joaquin/.ssh/"
- "/home/joaquin/Documents/Universidad/Redes/"
- "/home/joaquin/Documents/Universidad/Redes/Trabajo/Servidor/"
  "/home/joaquin/Documents/Universidad/GPUSCC/"
- "/home/joaquin/Downloads/tarea05/"
- "/home/joaquin/Documents/Universidad/juego/JuegoGrafica/Final/"
- "/home/joaquin/Documents/Universidad/Boids/Final/"
- "/home/joaquin/Documents/Universidad/juego/JuegoGrafica/Resources/"
- "/home/joaquin/Documents/Universidad/juego/JuegoGrafica/Framework/"
- "/home/joaquin/Documents/Universidad/juego/JuegoGrafica/build/"
- "/home/joaquin/Documents/Universidad/JuegoGrafica/"
- "/home/joaquin/Documents/Universidad/Grafica/"
- "/home/joaquin/Documents/Training/Codeforces/"
- "/home/joaquin/Documents/Universidad/JuegoGrafica/Framework/"
- "/etc/"
  "/home/joaquin/Documents/Universidad/Paralelos/Laboratorio07/"
  "/home/joaquin/Documents/Algoritmos-Paralelos/Chapter 4/"
  "/home/joaquin/Documents/Algoritmos-Paralelos/GPU/Chapter 4/"
  "/home/joaquin/Documents/gpuscc_code/"
+ "/home/joaquin/.ssh/"
  "/home/joaquin/Documents/Universidad/Paralelos/Laboratorio06/"
  "/home/joaquin/Documents/Training/Codeforces/round403/"
  "/home/joaquin/Documents/Training/Codeforces/round409/"
@@ -123,6 +94,7 @@
  "/home/joaquin/IS2-Inventarios/inventarios/"
  "/home/joaquin/IS2-Inventarios/plantillas/"
  "/home/joaquin/Documents/Universidad/Software/aplicacion/"
+ "/home/joaquin/Documents/Universidad/JuegoGrafica/Framework/"
  "/home/joaquin/Documents/Universidad/JuegoGrafica/Final/"
  "/home/joaquin/Downloads/"
  "/home/joaquin/Documents/Universidad/JuegoGrafica/Tarea05/"
@@ -132,99 +104,57 @@
  "/home/joaquin/Documents/Universidad/Software/plantillas/"
  "/home/joaquin/Documents/"
  "/home/joaquin/"
+ "/home/joaquin/Documents/Universidad/Software/inventarios/"
+ "/home/joaquin/Documents/Universidad/Grafica/"
+ "/home/joaquin/Documents/Universidad/Paralelos/Laboratorio05/"
+ "/home/joaquin/ogl/tutorial09_vbo_indexing/"
+ "/home/joaquin/grafica-practica5/src/"
+ "/home/joaquin/grafica-practica5/build/src/textures/"
+ "/home/joaquin/grafica-practica5/"
+ "/home/joaquin/Documents/Universidad/JuegoGrafica/Resources/"
+ "/home/joaquin/Documents/Universidad/JuegoGrafica/"
+ "/home/joaquin/Documents/Training/Codeforces/"
+ "/home/joaquin/Documents/Universidad/Software/inventarios/inventarios/"
+ "/home/joaquin/ogl/common/"
+ "/home/joaquin/.emacs.d/settings/"
+ "/home/joaquin/.emacs.d/"
+ "/home/joaquin/Documents/Universidad/Software/inventarios/plantillas/"
+ "/home/joaquin/Documents/Universidad/Software/inventarios/aplicacion/"
+ "/home/joaquin/Documents/IS2-Inventarios/inventarios/aplicacion/"
+ "/home/joaquin/Documents/IS2-Inventarios/inventarios/plantillas/"
+ "/home/joaquin/Documents/Universidad/IS2-Inventarios/inventarios/plantillas/"
+ "/home/joaquin/Documents/Universidad/IS2-Inventarios/inventarios/aplicacion/"
+ "/home/joaquin/Documents/Universidad/IS2-Inventarios/inventarios/inventarios/"
+ "/home/joaquin/Documents/Universidad/Redes/Trabajo/Servidor/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "damelo.txt"
- "man.txt"
- "auxiliar.cc"
- "prueba.txt"
- "How.txt"
- "huffman.h"
- "huffman.cc"
- "auxiliar.h"
- "main.cpp"
- "main.cc"
+ "Auxiliar.h"
+ "wtf.c"
+ "Final.cu"
+ "Control.cu"
+ "pizarra.in"
+ "trivial.in"
+ "lodepng.cu"
+ "lodepng.h"
+ "prueba3.png"
+ "prueba2.png"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- (#("/home/joaquin/Documents/Universidad/Huffman/build/" 44 47 (face flx-highlight-face)) (22864 8862 752456 693000) "compress.huffman" "Makefile" "lorem.txt" "CMakeFiles/" "marbles.bmp" "CMakeCache.txt" "./" "Huffman" "libhuffman.so" "cmake_install.cmake" "../" "nmarbles.bmp" "inp.txt" "libauxiliar.so")
+ ("/home/joaquin/Documents/Universidad/GPUSCC/" (22835 30143 767725 756000) "trivial.in" "./" "pizarra.in" "README.md" "Final.cu" "LICENSE" "Final.o" ".gitignore" ".git/" "../" "Auxiliar.h")
 
- ("/home/joaquin/Documents/Universidad/Huffman/" (22864 8756 165794 631000) "How.txt" "./" "man.txt" "README.md" "CMakeLists.txt" "LICENSE" ".gitignore" ".git/" "Utils/" "../" "build/" "main.cc")
+ ("/home/joaquin/" (22835 20592 211471 693000) ".mozilla/" ".sqlmap/" ".dmrc" ".zcompdump" ".zsh_history" ".bash_history" "dradis-ce/" ".oracle_jre_usage/" ".yaourtrc" "./" ".antigen.zsh" ".smex-items" ".python_history" "IS2-Inventarios/" ".viminfo" ".Xauthority" ".bashrc" ".gnome/" ".BurpSuite/" ".gitconfig" ".bundle/" "Pictures/" ".xinitrc" "Documents/" ".fonts/" "Downloads/" "ogl/" ".lesshst" ".python_history-28532.tmp" "database/" ".export" ".config/" ".zcompdump-Lanaya-5.2" ".nv/" ".gem/" ".alias" ".emacs.d/" ".xfce4-session.verbose-log" ".pki/" ".steam/" ".CLion2016.3/" "aver/" ".algo" ".zsh-update" ".xsession-errors" "home/" ".oh-my-zsh/" ".compton.conf" ".wget-hsts" ".functions" ".bin/" ".fehbg" ".steampid" ".bash_logout" "windows/" ".antigen/" ".ssr/" ".local/" ".zshrc" ".Xresources" "../" "dotfiles/" ".bash_profile" ".things/" ".emacs.d.backup/" ".ssh/" ".renpy/" ".xsession-errors.old" ".gnupg/" ".saves/" ".ICEauthority" "Desktop/" ".xfce4-session.verbose-log.last" ".xprofile" ".cache/" ".processing/" ".esd_auth" ".pulse-cookie" ".steampath" ".java/")
 
- ("/home/joaquin/Documents/Universidad/Huffman/Utils/" (22864 8689 459130 846000) "huffman.h" "./" "auxiliar.cc" "man.txt" "auxiliar.h" "../" "huffman.cc")
+ ("/home/joaquin/Documents/Universidad/" (22832 23337 259888 668000) "GrafBack/" "./" "Redes/" "JuegoGrafica/" "Proyecto/" "../" "Grafica/" "Paralelos/" "GPUSCC/" "Imagenes/")
 
- ("/home/joaquin/" (22864 8627 702466 847000) ".mozilla/" ".sqlmap/" ".thumbnails/" ".dmrc" ".zcompdump" ".zsh_history" ".bash_history" "dradis-ce/" ".oracle_jre_usage/" ".yaourtrc" "./" ".antigen.zsh" ".smex-items" ".python_history" "IS2-Inventarios/" ".viminfo" ".Xauthority" ".bashrc" ".gnome/" ".BurpSuite/" ".gitconfig" ".bundle/" "Pictures/" ".xinitrc" "Documents/" ".fonts/" "Downloads/" "ogl/" ".lesshst" ".python_history-28532.tmp" "database/" ".export" ".config/" ".zcompdump-Lanaya-5.2" ".nv/" ".gem/" ".alias" ".emacs.d/" ".xfce4-session.verbose-log" ".pki/" ".steam/" ".CLion2016.3/" "cudpp/" "aver/" ".algo" ".zsh-update" ".xsession-errors" ".oh-my-zsh/" ".compton.conf" ".wget-hsts" ".functions" ".bin/" ".fehbg" ".steampid" ".bash_logout" "windows/" ".antigen/" ".ssr/" ".local/" ".zshrc" ".Xresources" "../" "dotfiles/" ".bash_profile" ".things/" "iphone/" ".emacs.d.backup/" ".ssh/" ".renpy/" ".xsession-errors.old" "GPUSCC/" ".gnupg/" ".saves/" ".ICEauthority" "Desktop/" ".xfce4-session.verbose-log.last" ".xprofile" "huffman/" ".cache/" ".processing/" ".esd_auth" ".pulse-cookie" ".steampath" ".java/")
+ ("/home/joaquin/Documents/" (22832 14789 156558 579000) "./" "cmake/" "Universidad/" "Repos/" "Training/" "../" "Pagina/" "blackarch/" "Competitive-Algorithms/")
 
- ("/home/joaquin/huffman/" (22863 64917 762866 249000) "Makefile" "huffman.vcproj" "./" "README.md" "huffman.sln" "huffman.exe" ".git/" "../" "input.txt" "huffman" "main.cpp")
+ ("/home/joaquin/Documents/Universidad/Paralelos/Laboratorio07/" (22832 17510 823107 677000) "grays.o" "blur.o" "lodepng.h" "inverse.cu" "./" "lodepng.cu" "prueba1.png" "grays.cu" "graysEva.png" "eva.png" "01.png" "grayEva.png" "prueba3.png" "inverseEva.png" "../" "prueba2.png" "blur.cu" "inverse01.png" "blurEva.png" "prueba.png" "inverse.o")
 
- ("/home/joaquin/Documents/Universidad/Boids/JuegoGrafica/Final/" (22862 13157 316497 577000) "./" "../" "final.cpp")
-
- ("/home/joaquin/Documents/Universidad/Boids/JuegoGrafica/Framework/" (22859 62285 463260 266000) "./" "myTexture.hpp" "myControl.hpp" "myPhisics.cpp" "myShapes.cpp" "myArt.hpp" "myMap.cpp" "myShaders.cpp" "myObjectLoader.hpp" "myShaders.hpp" "myArt.cpp" "myShapes.hpp" "myTexture.cpp" "myControl.cpp" "myConfiguration.cpp" "../" "myObjectLoader.cpp" "myConfiguration.hpp")
-
- ("/home/joaquin/Documents/Universidad/Grafica/Final/" (22781 19009 767750 715000) "LightFragmentShader.fragmentshader" "./" "LightVertexShader.vertexshader" "TransformVertexShader.vertexshader" "../" "ColorFragmentShader.fragmentshader" "final.cpp")
-
- ("/home/joaquin/Documents/Universidad/DistributedGraph/" (22857 45817 732863 226000) "Peer.o" "bigram_ES.dat" "client.cpp" "mainMaster.o" "./" "mainSlave.cpp" "Slave.cpp" "Master.h" "README.MD" "en.wiki.big" "auxiliar.h" "Master.cpp" "mainMaster.cpp" ".gitignore" "mainSlave.o" "prueba.txt" ".git/" "../" "Graph.h" "Peer.cpp" "client.o" "main.o" "auxiliar.cpp" "Slave.h")
-
- ("/home/joaquin/.ssh/" (22857 25433 779919 142000) "known_hosts" "id_rsa" "./" "id_rsa.pub" "id_dsa" "id_dsa.pub" "../")
-
- ("/home/joaquin/Documents/Universidad/Redes/Trabajo/Servidor/" (22854 64259 395378 760000) "Prueba.cpp" "#ServidorBackup.cpp#" "showip.o" "./" "Prueba.o" "Servidor.o" "Client.o" "Cliente.o" "ClienteDuro.cpp" "Servidor.cpp" "ClienteDuroBackup.cpp" "showip.c" ".#ServidorBackup.cpp" "ServidorBackup.cpp" "../" ".# *Minibuf-1*" "Functions.cpp" "Cliente.cpp" "error.cpp" "a.out")
-
- ("/home/joaquin/Documents/Universidad/Redes/Trabajo/" (22785 55367 730380 440000) "TicTacToe.o" "Protocolo.hpp" "./" "Servidor/" "../" "TicTacToe.cpp")
-
- ("/home/joaquin/Documents/Universidad/Redes/" (22786 40875 772669 478000) "server.c" "backup.c" "cliente.o" "cli.c" "p2p3r/" "./" "thread.o" "servidor.c" "socket.rar" "tcpserver.c" "#msn.#" "multserver.o" "tcpclient.c" "cli.o" "client.c" "client.cc" "#msn.c#" "udpserver.c" "msn.o" "servidor.o" "../" "thread.c" "Trabajo/" "msn.c" "client.o" "multserver.c" "server.o" "udpclient.c" "a.out")
-
- ("/home/joaquin/Documents/Universidad/GPUSCC/" (22853 46235 859160 938000) "trivial.in" "generator.cc" "./" "ciclo.in" "pizarra.in" "README.md" "dev.cu" "Final.cu" "CMakeLists.txt" "Final.o" "randomGraph1m.in" "1conexa.in" ".gitignore" "randomGraph1000.in" ".git/" "randomGraph100k.in" "../" "build/" "Auxiliar.h" "2conexas.in" "randomGraph.in" "grafobien.in" "generator.o" "dev.o")
-
- ("/home/joaquin/Downloads/tarea05/" (22853 29991 609862 649000) "TextureManager.cpp" "fontvieille.txt" "FreeImage/" ".#main.cpp" "TextureManager.h" "./" "top5.zip" "fontvieille_ant.txt" "../" "terreno.h" "fontvieille.tga" "main.o" "main.cpp")
-
- ("/home/joaquin/Downloads/" (22853 28820 59913 257000) "Proyecto_21.pdf" "fontvieille.txt" "snk12.mp4" "wiki/" "2ebc0977e99a684d97bb85dc5ad93f98.rar" "Hacking - CEH Cheat Sheet Exercises.pdf" "Cuda3.pdf" "TP5.zip" "Amigoooo/" "PID2124457.pdf" "CUDPP_slides.pdf" "Gamus/" "Walkthrough v0.10.pdf" "[IS2] - SGPF, Diagrama de clases.pdf" "[IS2] - Exposicion del paper.png" "ETAPAS DE DESARROLLO DEL SER HUMANO resumido.pdf" "FinalProyecto.pdf" "critica.pdf" "Socialización.pdf" "modbig.rar" "nullsec-amiga.pdf" "Magazines/" "tarea05/" "eva.png" "Componentes.pdf" "Proyecto_1.pdf" "top5.zip" "bigramas/" "bigbro.rar" "Cuda33.pdf" "Articulos/" "[IS2] - Exposicion del paper.jpg" "Wiley.Social.Engineering.The.Art.Of.Human.Hacking.Dec.2010.ISBN.0470639539.pdf" "TP5.pdf" "DMDv0.10 Extras.zip" "[PuyaSubs!] Shingeki no Kyojin S2 - 10 [1080p][31DE16BF].mkv" "Shingeki no Kyojin S2 - 09 [1080p] [MX-EN-PT] [B704B117].mkv" "[IS2] - Exposicion del paper.pptx" "923-3365-1-PB.pdf" "gparted-live-0.28.1-1-i686.iso" "Libros/" "fontvieille.tga" "Lab05.pdf" "[IS2-Lab] SCRUM, Product Backlog.pdf" "DESARROLLO PSICOLÓGICO.pdf" "steven1.png" "Dating_My_Daughter-0.10-win.zip" "../" "./")
-
- ("/home/joaquin/Documents/Universidad/Paralelos/Laboratorio08/" (22850 53950 691609 917000) "generator.cc" "./" "pruebas.sh" "tiempos.txt" "shared.cu" "Lab08.pdf" "../")
-
- ("/home/joaquin/Documents/Universidad/" (22852 60516 627799 667000) "juego/" "GrafBack/" "./" "Boids/" "Huffman/" "Redes/" "nuevojuego/" "DistributedGraph/" "JuegoGrafica/" "Proyecto/" "../" "Grafica/" "Paralelos/" "GPUSCC/" "Imagenes/")
-
- ("/home/joaquin/Documents/Universidad/juego/JuegoGrafica/Final/" (22852 22918 104077 947000) "./" "../" "final.cpp")
-
- ("/home/joaquin/Documents/Universidad/Boids/JuegoGrafica/Resources/" (22852 22821 180746 794000) "SimpleVertexShader.vertexshader" "LightFragmentShader.fragmentshader" "GameVertexShader.vertexshader" "textureroca.jpg" "./" "uvtemplate.DDS" "LightVertexShader.vertexshader" "verticesArt.cpp" "TransformVertexShader.vertexshader" "suzanne.obj" "uvmap.DDS" "../" "ColorFragmentShader.fragmentshader" "GameFragmentShader.fragmentshader" "textureroca.DDS" "texture.jpg")
-
- ("/home/joaquin/Documents/Universidad/Boids/JuegoGrafica/" (22852 20554 794131 113000) "Resources/" "cmake-build-debug/" "./" "Framework/" "Final/" ".idea/" "README.md" "CMakeLists.txt" ".gitignore" ".git/" "../" "build/" "external/")
-
- ("/home/joaquin/Documents/Universidad/Boids/" (22852 20528 697465 34000) "./" "JuegoGrafica/" "../")
-
- ("/home/joaquin/Documents/Universidad/Boids/Final/" (22852 20317 530803 117000) "./" "../" "Terreno.cpp" "tarea04.cpp" "#final.cpp#" "final.cpp")
-
- ("/home/joaquin/Documents/" (22852 10582 636679 440000) "e-maxx-eng/" "./" "cmake/" "Universidad/" "Repos/" "Training/" "../" "Pagina/" "blackarch/" "Competitive-Algorithms/")
-
- ("/home/joaquin/Documents/Universidad/juego/JuegoGrafica/Resources/" (22851 44204 808512 9000) "SimpleVertexShader.vertexshader" "LightFragmentShader.fragmentshader" "GameVertexShader.vertexshader" "textureroca.jpg" "./" "uvtemplate.DDS" "LightVertexShader.vertexshader" "verticesArt.cpp" "TransformVertexShader.vertexshader" "suzanne.obj" "uvmap.DDS" "../" "ColorFragmentShader.fragmentshader" "GameFragmentShader.fragmentshader" "textureroca.DDS" "texture.jpg")
-
- ("/home/joaquin/Documents/Universidad/juego/JuegoGrafica/Framework/" (22851 50025 792018 796000) "./" "myTexture.hpp" "myControl.hpp" "myPhisics.cpp" "myShapes.cpp" "myArt.hpp" "myMap.cpp" "myShaders.cpp" "myObjectLoader.hpp" "myShaders.hpp" "myArt.cpp" "myShapes.hpp" "myTexture.cpp" "myControl.cpp" "myConfiguration.cpp" "../" "myObjectLoader.cpp" "myConfiguration.hpp")
-
- ("/home/joaquin/Documents/Universidad/juego/JuegoGrafica/build/" (22851 44323 885182 225000) "Makefile" "CMakeFiles/" "libmyPhisics.so" "CMakeCache.txt" "./" "libmyObjectLoader.so" "libmyShaders.so" "Final" "libmyControl.so" "libmyArt.so" "cmake_install.cmake" "libverticesArt.so" "../" "libmyMap.so" "libmyConfiguration.so" "external/" "libmyTexture.so")
-
- ("/home/joaquin/Documents/Universidad/juego/JuegoGrafica/" (22851 44244 551846 527000) "Resources/" "cmake-build-debug/" "./" "Framework/" "Final/" ".idea/" "README.md" "CMakeLists.txt" ".gitignore" ".git/" "../" "build/" "external/")
-
- ("/home/joaquin/Documents/Universidad/juego/" (22851 44146 561843 607000) "./" "JuegoGrafica/" "../")
-
- ("/home/joaquin/Documents/Universidad/JuegoGrafica/" (22850 54396 521590 658000) "Resources/" "cmake-build-debug/" "./" "Framework/" "Boids/" "Final/" ".idea/" "README.md" "CMakeLists.txt" ".gitignore" ".git/" "../" "build/" "external/" "Tarea05/")
-
- ("/home/joaquin/Documents/Universidad/Huffman/build/CMakeFiles/" (22850 31159 923354 636000) "feature_tests.cxx" "feature_tests.bin" "feature_tests.c" "Makefile.cmake" "./" "cmake.check_cache" "auxiliar.dir/" "CMakeDirectoryInformation.cmake" "CMakeOutput.log" "progress.marks" "3.8.2/" "CMakeTmp/" "../" "huffman.dir/" "Makefile2" "TargetDirectories.txt" "Huffman.dir/")
-
- ("/home/joaquin/Documents/Universidad/Paralelos/" (22850 45140 685434 330000) "Laboratorio08/" "./" "Laboratorio07/" "Laboratorio04/" "README.md" ".gitignore" "Laboratorio06/" ".git/" "../" "Laboratorio01/" "Laboratorio02/" "Laboratorio05/" "Laboratorio03/")
-
- ("/home/joaquin/Documents/Universidad/GrafBack/" (22778 25785 566773 196000) "glut32.lib" "tp2.zip" "Tutorial/" "./" "ejemplo.cpp" "nuevo.cpp" "Framework/" "GarmendiaCabreraTrabajo2.cpp" "*shell*" "TP3.pdf" "TP1 2017.rar" "tp2.cpp" "first.cc" "CMakeLists.txt" "nuevo.o" "Computación Gráfica - TP1.pdf" "Tarea03/" "TP2.pdf" "../" "build/" "pendulo.cpp" "JoaquinGarmendiaCabrera.cpp" "glut32.dll" "external/" "main.o" "glut.h")
-
- ("/home/joaquin/Documents/Training/Codeforces/" (22845 15136 133560 487000) "427C.cc" "round409/" "siberian/" "758B.o" "318A.cc" "221D.cc" "677A.cc" "220B.cc" "input.in" "115A.cc" "723D.cc" "baltic/" "round361/" "390/" "651A.cc" "round408.cc" "766D.cc" "702C2.cc" "363/" "CanadD.cc" "505D.o" "404C.cc" "688A.cc" "448C.cc" "707A.o" "checkposts.cc" "758A.o" "281B.cc" "395/" "520C.cc" "499B.cc" "round404/" "427C.o" "brasilian/" "round/" "459E2.cc" "401/" "380C.o" "580C2.cc" "681C.cc" "731C.cc" "271D.cc" "356A.cc" "492B.cc" "677B.cc" "492B2.cc" "466C2.cc" "466C2.o" "688B.cc" "629B.cc" "466C.cc" "a.in" "505D.cc" "149A.cc" "705B.cc" "467C.cc" "706B.cc" "names.o" "295B.cc" "703D.cc" "474B.cc" "471D.cc" "741B.cc" "southerneerc2009/" "CanadA.o" "706B2.cc" "705C.o" "375A.cc" "731A.cc" "round408.o" "51B.cc" "round340/" "94A.cc" "432D.cc" "southerneerc/" "743C.o" "680A.cc" "15C.cc" "708B.cc" "140C2.cc" "402D.cc" "707C.cc" "397/" "708B.o" "144A.cc" "687B.cc" "codecraft-17/" "training3/" "25E.O" "725D.cc" "379/" "711C.cc" "580C.cc" "380C.cc" "707B.cc" "741B.o" "732A.cc" "731B.cc" "86D.o" "578C.cc" "126B.cc" "645C.cc" "387/" "729C.o" "677C.cc" "780/" "732D.cc" "386/" "702B.cc" "670A.cc" "701A.cc" "garland.cc" "140C.cc" "377A.cc" "722C.cc" "676A.cc" "round408/" "124A.cc" "660C.cc" "219D.o" "264B.cc" "612C.cc" "680C.cc" "names.cc" "758C.o" "ecna/" "159A.cc" "295B.o" "680C2.cc" "616C.cc" "271D.o" "616-2.cc" "653B.cc" "checkposts.o" "710E.cc" "seleccion/" "baude.cc" "#779A.cc#" "499B.o" "732C.cc" "688C.cc" "a.o" "702A.cc" "758C.cc" "659E.cc" "660C2.cc" "CanadB.cc" "612A.cc" "705B.o" "393/" "a.cc" "439D.cc" "86D.cc" "384/" "448D.cc" "moscow/" "743C.cc" "220B.o" "CanadB.o" "705A.o" "670B.cc" "705C.cc" "398/" "404C2.cc" "599B.cc" "681C.o" "456C.cc" "779C.cc" "138A.cc" "aim/" "408/" "103B.cc" "219D.cc" "gymBrasil/" "396/" "680B.cc" "swerc16/" "round358/" "278B.cc" "471D.o" "675C.cc" "725D.o" "455B.cc" "492A.cc" "758A.cc" "round403/" "362/" "CanadC.cc" "399/" "NWERC2016/" "359/" "372/" "578C.o" "394/" "round378/" "126B.o" "629A.cc" "goodbye/" "25E.cc" "388/" "492C.cc" "25E.o" "732B.cc" "baude.o" "round373/" "brasil/" "701C.cc" "490C.cc" "706B2.o" "161D.cc" "352/" "660C2.o" "472D.cc" "371/" "618C.cc" "18A.cc" "344/" "492B2.0o" "723C.cc" "472D.o" "#707C.cc#" "607A.cc" "702C.cc" "706C.cc" "675B.cc" "439D.o" "722C.o" "729C.cc" "701D.cc" "342/" "60B.cc" "779C.o" "sppc16/" "370/" "628B.cc" "701B.cc" "676B.cc" "365/" "707A.cc" "sol.cc" "389/" "547B.cc" "705A.cc" "676C.cc" "758B.cc" "400/" "707B.o" "557C.cc" "404C.o" "404C2.o" "449A.cc" "soejima/" "459E.cc" "675A.cc" "580C2.o" "a.out" "CanadA.cc" "448B.cc" "221D.o" "../" "./")
-
- ("/home/joaquin/Documents/Universidad/JuegoGrafica/Framework/" (22844 9032 261873 938000) "./" "myTexture.hpp" "myControl.hpp" "myPhisics.cpp" "myShapes.cpp" "myArt.hpp" "myMap.cpp" "myShaders.cpp" "myObjectLoader.hpp" "myShaders.hpp" "myArt.cpp" "myShapes.hpp" "myTexture.cpp" "myControl.cpp" "myConfiguration.cpp" "../" "myObjectLoader.cpp" "myConfiguration.hpp")
-
- ("/home/joaquin/Documents/Universidad/GPUSCC/build/" (22840 41829 299489 305000) "Makefile" "CMakeFiles/" "CMakeCache.txt" "./" "cmake_install.cmake" "../")
-
- ("/etc/" (22838 59279 238093 197000) "wgetrc" "profile" "neofetch/" "ts.conf" "krb5.conf" "tmpfiles.d/" "systemd/" "gdb/" "gshadow-" "vnstat.conf" "xdg/" "resolv.conf" "shadow" "exports.d/" "man_db.conf" "redis.conf" "makepkg.conf" "vimrc" "crypttab" "wpa_supplicant/" "./" "ca-certificates/" "bash.bashrc" "passwd" "ld.so.conf.d/" "depmod.d/" "nanorc" "hostname" "polkit-1/" "pango/" "zsh/" "mopidy/" "default/" "udev/" "fstab" "inputrc" "skel/" "X11/" "hosts" "localtime" "mtab" "java-8-openjdk/" "sudoers.d/" "netconfig" "xml/" "trusted-key.key" "request-key.conf" "xinetd.d/" "UPower/" "shadow-" "mdadm.conf" "mkinitcpio.d/" "apparmor.d/" "passwd.OLD" "udisks2/" "pacman.conf" "../" "ld.so.conf" "drirc" "securetty" "libpaper.d/" "group-" "pulse/" "gssproxy/" "arch-release" "mail.rc" "shells" "pacman.d/" "group" "ImageMagick-6/" ".updated" "libao.conf" "slsh.rc" "vbox/" "john/" "machine-id" "mkinitcpio.conf" "logrotate.d/" "initcpio/" "zshrc" "sudoers" "healthd.conf" "php/" "gtk-2.0/" "pkcs11/" "sensors3.conf" "fonts/" "modules-load.d/" "passwd-" "resolv.conf.bak" "asound.conf" "avahi/" "rpc" "lvm/" "openmpi/" "mke2fs.conf" "fuse.conf" "papersize" "profile.d/" "services" "gemrc" "sensors.d/" "gshadow.pacnew" "netctl/" "OpenCL/" "pcmcia/" ".pwd.lock" "kernel/" "nscd.conf" "cifs-utils/" "gai.conf" "ld.so.cache" "adjtime" "libreoffice/" "java-7-openjdk/" "pam.d/" "locale.conf" "nfs.conf" "NetworkManager/" "sysctl.d/" "ssh/" "geoclue/" "dbus-1/" "ssl/" "security/" "shadow.pacnew" "modprobe.d/" "passwd.pacnew" "update-pacman-mirrorlist" "conf.d/" "dhcpcd.duid" "gconf/" "binfmt.d/" "login.defs" "gshadow" "exports" "openldap/" "ifplugd/" "iptables/" "lightdm/" "logrotate.conf" "gtk-3.0/" "bash.bash_logout" "dkms/" "ethertypes" "yaourtrc" "libnl/" "vdpau_wrapper.cfg" "environment" "resolvconf.conf" "locale.gen" "pacman.conf~" "motd" "gss/" "sqlmap.conf" "nsswitch.conf" "texmf/" "nfsmount.conf" "bumblebee/" "host.conf" "request-key.d/" "rc_maps.cfg" "protocols" "rc_keymaps/" "mime.types" "issue" "iproute2/" "group.pacnew" "dhcpcd.conf" "os-release")
-
- ("/home/joaquin/Documents/Universidad/Paralelos/Laboratorio07/" (22832 17704 496432 644000) "grays.o" "blur.o" "lodepng.h" "inverse.cu" "./" "lodepng.cu" "prueba1.png" "grays.cu" "graysEva.png" "eva.png" "01.png" "grayEva.png" "prueba3.png" "inverseEva.png" "../" "prueba2.png" "blur.cu" "inverse01.png" "blurEva.png" "prueba.png" "inverse.o")
+ ("/home/joaquin/Documents/Universidad/Paralelos/" (22832 14817 953224 2000) "./" "Laboratorio07/" "Laboratorio04/" "README.md" ".gitignore" "Laboratorio06/" ".git/" "../" "Laboratorio01/" "Laboratorio02/" "Laboratorio05/" "Laboratorio03/")
 
  ("/home/joaquin/Documents/Algoritmos-Paralelos/Chapter 4/" (22832 12997 369969 313000) "./" "linked_list_rwlocks.c" "linked_list_mutex.c" "linked_list.c" "pi_mutex.c" "strtokr_threads.c" "strtok_threads.c" "Matrix-vector.c" "../" "pi.c")
 
@@ -238,9 +168,13 @@
 
  ("/home/joaquin/Documents/gpuscc_code/" (22832 655 357997 708000) "demo.graph" "reach_q.h" "reach_l.h" "Makefile" "scc.h" "load.h" "runall" "./" "README" "1.xls" "worklistc.h" "load.cpp" "scc.cu" "reach_d.cu" "wcc.cu" "reach_l.cu" "tarjan.h" "tarjan.o" "timing.o" "reach_t.h" "reach_t.cu" "timing.h" "reach_b.cu" ".gitignore" "cutil_subset.h" ".git/" "process_rst.cpp" "../" "tarjan.cpp" "wcc.h" "reach_q.cu" "timing.cpp" "load.o" "scc_routines.cu" "reach_b.h" "reach_d.h" "GPUerrchk.h" "scc_routines.h")
 
+ ("/home/joaquin/.ssh/" (22831 6047 561557 966000) "known_hosts" "id_rsa" "./" "id_rsa.pub" "id_dsa" "id_dsa.pub" "../")
+
  ("/home/joaquin/Documents/Universidad/Paralelos/Laboratorio06/" (22823 4686 275668 966000) "VecMat.o" "Mult2.o" "./" "Mult3.cu" "hello.out" "Mult4.o" "VecMat.cu" "Mult1.o" "Mult1.cu" "HelloWorld.cu" "Mult4.cu" "../" "HelloWorld.o" "Mult2.cu" "Mult3.o")
 
  ("/home/joaquin/Documents/Training/Codeforces/round403/" (22828 9108 400330 202000) "B.cc" "./" "B.o" "A.cc" "../" "C.o" "C.cc" "A.o")
+
+ ("/home/joaquin/Documents/Training/Codeforces/" (22828 1883 720114 922000) "427C.cc" "round409/" "siberian/" "758B.o" "318A.cc" "221D.cc" "677A.cc" "220B.cc" "input.in" "115A.cc" "723D.cc" "baltic/" "round361/" "390/" "651A.cc" "round408.cc" "766D.cc" "702C2.cc" "363/" "CanadD.cc" "505D.o" "404C.cc" "688A.cc" "448C.cc" "707A.o" "758A.o" "281B.cc" "395/" "520C.cc" "499B.cc" "round404/" "427C.o" "brasilian/" "round/" "459E2.cc" "401/" "380C.o" "580C2.cc" "681C.cc" "731C.cc" "271D.cc" "356A.cc" "492B.cc" "677B.cc" "492B2.cc" "466C2.cc" "466C2.o" "688B.cc" "629B.cc" "466C.cc" "a.in" "505D.cc" "149A.cc" "705B.cc" "467C.cc" "706B.cc" "295B.cc" "703D.cc" "474B.cc" "471D.cc" "741B.cc" "southerneerc2009/" "CanadA.o" "706B2.cc" "705C.o" "375A.cc" "731A.cc" "round408.o" "51B.cc" "round340/" "94A.cc" "432D.cc" "southerneerc/" "743C.o" "680A.cc" "15C.cc" "708B.cc" "140C2.cc" "402D.cc" "707C.cc" "397/" "708B.o" "144A.cc" "687B.cc" "codecraft-17/" "training3/" "25E.O" "725D.cc" "379/" "711C.cc" "580C.cc" "380C.cc" "707B.cc" "741B.o" "732A.cc" "731B.cc" "86D.o" "578C.cc" "126B.cc" "645C.cc" "387/" "729C.o" "677C.cc" "780/" "732D.cc" "386/" "702B.cc" "670A.cc" "701A.cc" "garland.cc" "140C.cc" "377A.cc" "722C.cc" "676A.cc" "round408/" "124A.cc" "660C.cc" "219D.o" "264B.cc" "612C.cc" "680C.cc" "758C.o" "ecna/" "159A.cc" "295B.o" "680C2.cc" "616C.cc" "271D.o" "616-2.cc" "653B.cc" "710E.cc" "seleccion/" "baude.cc" "#779A.cc#" "499B.o" "732C.cc" "688C.cc" "a.o" "702A.cc" "758C.cc" "659E.cc" "660C2.cc" "CanadB.cc" "612A.cc" "705B.o" "393/" "a.cc" "439D.cc" "86D.cc" "384/" "448D.cc" "moscow/" "743C.cc" "220B.o" "CanadB.o" "705A.o" "670B.cc" "705C.cc" "398/" "404C2.cc" "599B.cc" "681C.o" "456C.cc" "779C.cc" "138A.cc" "aim/" "408/" "103B.cc" "219D.cc" "gymBrasil/" "396/" "680B.cc" "swerc16/" "round358/" "278B.cc" "471D.o" "675C.cc" "725D.o" "455B.cc" "492A.cc" "758A.cc" "round403/" "362/" "CanadC.cc" "399/" "NWERC2016/" "359/" "372/" "578C.o" "394/" "round378/" "126B.o" "629A.cc" "goodbye/" "25E.cc" "388/" "492C.cc" "25E.o" "732B.cc" "baude.o" "round373/" "brasil/" "701C.cc" "490C.cc" "706B2.o" "161D.cc" "352/" "660C2.o" "472D.cc" "371/" "618C.cc" "18A.cc" "344/" "492B2.0o" "723C.cc" "472D.o" "#707C.cc#" "607A.cc" "702C.cc" "706C.cc" "675B.cc" "439D.o" "722C.o" "729C.cc" "701D.cc" "342/" "60B.cc" "779C.o" "sppc16/" "370/" "628B.cc" "701B.cc" "676B.cc" "365/" "707A.cc" "sol.cc" "389/" "547B.cc" "705A.cc" "676C.cc" "758B.cc" "400/" "707B.o" "557C.cc" "404C.o" "404C2.o" "449A.cc" "soejima/" "459E.cc" "675A.cc" "580C2.o" "a.out" "CanadA.cc" "448B.cc" "221D.o" "../" "./")
 
  ("/home/joaquin/Documents/Training/Codeforces/round409/" (22781 55396 516354 672000) "B.cc" "./" "B.o" "A.cc" "../" "C.o" "C.cc" "A.o")
 
@@ -274,7 +208,11 @@
 
  ("/home/joaquin/Documents/Universidad/JuegoGrafica/Final/" (22823 9708 715452 8000) "./" ".#Terreno.cpp" "../" "Terreno.cpp" "#Terreno.cpp#" "tarea04.cpp" "final.cpp")
 
+ ("/home/joaquin/Downloads/" (22823 8780 515492 105000) "Proyecto_21.pdf" "fontvieille.txt" "TP5.zip" "Amigoooo/" "PID2124457.pdf" "Gamus/" "[IS2] - SGPF, Diagrama de clases.pdf" "Magazines/" "TP5.pdf" "923-3365-1-PB.pdf" "Libros/" "fontvieille.tga" "[IS2-Lab] SCRUM, Product Backlog.pdf" "../" "./")
+
  ("/home/joaquin/Documents/Universidad/JuegoGrafica/Tarea05/" (22823 8503 718837 396000) "./" "../")
+
+ ("/home/joaquin/Documents/Universidad/JuegoGrafica/" (22823 8503 718837 396000) "Resources/" "cmake-build-debug/" "./" "Framework/" "Final/" ".idea/" "README.md" "CMakeLists.txt" ".gitignore" ".git/" "../" "build/" "external/" "Tarea05/")
 
  ("/home/joaquin/Documents/Universidad/Grafica/Resources/" (22781 14579 531275 424000) "./" "verticesArt.cpp" "suzanne.obj" "uvmap.DDS" "../")
 
@@ -314,6 +252,8 @@
 
  ("/home/joaquin/Documents/Universidad/JuegoGrafica/build/" (22813 26622 400061 376000) "Makefile" "CMakeFiles/" "libmyPhisics.so" "CMakeCache.txt" "./" "libartVertices.so" "libmyObjectLoader.so" "libmyShaders.so" "Final" "Tarea04" "libmyControl.so" "libmyArt.so" "cmake_install.cmake" "libverticesArt.so" "../" "libmyMap.so" "libmyConfiguration.so" "external/" "libmyTexture.so")
 
+ ("/home/joaquin/Documents/Universidad/JuegoGrafica/Framework/" (22804 59496 186289 474000) "./" "myTexture.hpp" "myControl.hpp" "myPhisics.cpp" "myShapes.cpp" "myArt.hpp" "myMap.cpp" "myShaders.cpp" "myObjectLoader.hpp" "myShaders.hpp" "myArt.cpp" "myShapes.hpp" "myTexture.cpp" "myControl.cpp" "myConfiguration.cpp" "../" "myObjectLoader.cpp" "myConfiguration.hpp")
+
  ("/home/joaquin/Documents/Universidad/Software/inventarios/inventarios/" (22809 64709 957603 928000) "settings.py" "./" "__pycache__/" "../")
 
  ("/home/joaquin/Documents/Universidad/Software/inventarios/aplicacion/migrations/" (22809 63572 874236 713000) "./" "__pycache__/" "../")
@@ -349,6 +289,60 @@
  ("/home/joaquin/Documents/IS2-Inventarios/inventarios/" (22797 38717 12737 901000) "./" "plantillas/" "inventarios/" "aplicacion/" "manage.py" "../")
 
  ("/home/joaquin/Documents/IS2-Inventarios/" (22797 38728 246070 750000) "./" "SPRINT2" "SPRINT1" "inventarios/" ".git/" "../")
+
+ ("/home/joaquin/Documents/Universidad/IS2-Inventarios/inventarios/inventarios/" (22797 36776 482821 728000) "__init__.py" "settings.py" "./" "__pycache__/" "urls.py" "wsgi.py" "../")
+
+ ("/home/joaquin/Documents/Universidad/IS2-Inventarios/inventarios/" (22796 22835 343352 474000) "./" "plantillas/" "inventarios/" "aplicacion/" "manage.py" "../")
+
+ ("/home/joaquin/Documents/Universidad/IS2-Inventarios/" (22796 22857 910019 813000) "./" "SPRINT2" "SPRINT1" "inventarios/" ".git/" "../")
+
+ ("/home/joaquin/.things/" (22796 23200 356696 684000) "./" "paginas.txt" "../")
+
+ ("/home/joaquin/Documents/Universidad/Redes/Trabajo/Servidor/" (22787 27628 796911 759000) "Prueba.cpp" "showip.o" "./" "Prueba.o" "Servidor.o" "Client.o" "Cliente.o" "ClienteDuro.cpp" "Servidor.cpp" "ClienteDuroBackup.cpp" "showip.c" "ServidorBackup.cpp" "../" ".# *Minibuf-1*" "Functions.cpp" "Cliente.cpp" "error.cpp" "a.out")
+
+ ("/home/joaquin/ogl/tutorial05_textured_cube/" (22791 1976 236630 780000) "./" "uvtemplate.DDS" "#tutorial05.cpp#" "TransformVertexShader.vertexshader" "TextureFragmentShader.fragmentshader" "uvtemplate.bmp" "tutorial05.cpp" "#TransformVertexShader.vertexshader#" "../" "uvtemplate.tga" "screenshots/" "tutorial05_textured_cube")
+
+ ("/home/joaquin/ogl/common/" (22780 40687 632978 611000) "texture.cpp" "texture.hpp" "./" "vboindexer.cpp" "tangentspace.cpp" "shader.hpp" "objloader.cpp" "vboindexer.hpp" "controls.hpp" "objloader.hpp" "text2D.hpp" "text2D.cpp" "quaternion_utils.hpp" "../" "shader.cpp" "quaternion_utils.cpp" "tangentspace.hpp" "controls.cpp")
+
+ ("/home/joaquin/webgl-noise/demo/common/" (22789 63420 312916 984000) "noisedemo.c" "Makefile" ".#noisedemo.c" "noisedemoMain.frag" "./" "noisedemo.vert" "noisedemo.frag" "../")
+
+ ("/home/joaquin/webgl-noise/demo/Linux/" (22789 63062 702925 29000) "Makefile" "./" "../")
+
+ ("/home/joaquin/webgl-noise/demo/" (22789 63062 702925 29000) "Makefile" "./" "README" "common/" "Win32/" "../" "Linux/" "MacOSX/")
+
+ ("/home/joaquin/webgl-noise/src/" (22789 63062 702925 29000) "cellular2x2x2.glsl" "noise3D.glsl" "classicnoise4D.glsl" "cellular3D.glsl" "noise2D.glsl" "./" "README" "cellular2x2.glsl" "classicnoise3D.glsl" "psrdnoise2D.glsl" "../" "noise4D.glsl" "noise3Dgrad.glsl" "cellular2D.glsl" "classicnoise2D.glsl")
+
+ ("/home/joaquin/webgl-noise/" (22789 63062 702925 29000) "./" "demo/" "README" "src/" "LICENSE" ".git/" "../" "benchmark/")
+
+ ("/home/joaquin/ogl/tutorial03_matrices/" (22780 41257 682953 986000) "tutorial03.cpp" "./" "SingleColor.fragmentshader" "SimpleTransform.vertexshader" "tutorial03_matrices" "../" "screenshots/")
+
+ ("/home/joaquin/ogl/tutorial02_red_triangle/" (22789 5471 699537 895000) "SimpleVertexShader.vertexshader" "tutorial02_red_triangle" "./" ".#tutorial02.cpp" "../" "SimpleFragmentShader.fragmentshader" "screenshots/" "tutorial02.cpp" "#tutorial02.cpp#")
+
+ ("/home/joaquin/OpenGLInsightsCode/Chapter 07 Procedural Textures in GLSL/demo2/" (22788 62566 586394 457000) "tiles.vert" "LICENSE.txt" "Makefile" "snoise3.vert" "flownoise2.vert" "./" "bundle.sh" "spots.frag" "GL/" "tiles.frag" "fbmnoise.frag" "fbmnoise.vert" "snoise3.frag" "../" "spots.vert" "README.txt" "shaderdemo.c" "libglfw.a" "flownoise2.frag")
+
+ ("/home/joaquin/OpenGLInsightsCode/Chapter 07 Procedural Textures in GLSL/demo1/" (22788 62225 976402 120000) "fragment7.glsl" "fragment5.glsl" "fragment8.glsl" "texture.tga" "LICENSE.txt" "fragment3.glsl" "Makefile" "shaderbench.c" "./" "cellular.vert" "fragment6.glsl" "GL/" "fragment4.glsl" "../" "fragment1.glsl" "README.txt" "fragment2.glsl" "libglfw.a" "vertex.glsl")
+
+ ("/home/joaquin/OpenGLInsightsCode/Chapter 07 Procedural Textures in GLSL/" (22788 61989 3074 118000) "./" "library/" "demo2/" "shadertutorial/" "../" "demo1/")
+
+ ("/home/joaquin/OpenGLInsightsCode/" (22788 61990 613074 81000) "Chapter 37 Performance State Tracking/" "Chapter 28 Asynchronous Buffer Transfers/" "Chapter 39 The ANGLE Project Implementing OpenGL ES 2.0 on Direct3D/" "Chapter 13 Efficient Text Rendering in WebGL/" "Chapter 18 Hierarchical Depth Culling and Bounding-Box Management on the GPU/" "Chapter 11 Antialiased Volumetric Lines Using Shader-Based Extrusion/" "./" "Chapter 10 GPU Tessellation We Still Have a LOD of Terrain to Cover/" "Chapter 43 A Subset Approach to Using OpenGL and OpenGL ES/" "Chapter 31 In-Game Video Capture with Real-Time Texture Compression/" "Chapter 33 ARB_debug_output A Helping Hand for Desperate Developers/" "Chapter 27 Multi-GPU Rendering on NVIDIA Quadro/" "Chapter 26 Indexing Multiple Vertex Arrays/" "README.md" "Chapter 38 Monitoring Graphics Memory Usage/" "Chapter 25 Improving Performance by Reducing Calls to the Driver/" "Chapter 21 Programmable Vertex Pulling/" "Chapter 14 Layered Textures Rendering Pipeline/" "Chapter 32 An OpenGL-Friendly Geometry File Format and Its Maya Exporter/" "Chapter 40 SceneJS A WebGL-Based Scene Graph Engine/" "Chapter 15 Depth of Field with Bokeh Rendering/" ".git/" "Chapter 17 Real-Time Physically Based Deformation Using Transform Feedback/" "Chapter 09 Mixing Graphics and Compute with Multiple GPUs/" "Chapter 20 Efficient Layered Fragment Buffer Techniques/" "../" "Chapter 41 Features WebGL and Design Choices in SpiderGL/" "Chapter 19 Massive Number of Shadow-Casting Lights with Layered Rendering/" "Chapter 35 A Real-Time Profiling Tool/" "Chapter 29 Fermi Asynchronous Texture Transfers/" "Chapter 12 2D Shape Rendering by Distance Fields/" "Chapter 07 Procedural Textures in GLSL/" "Chapter 06 An Introduction to Tessellation Shaders/")
+
+ ("/home/joaquin/Documents/Universidad/Redes/" (22786 40875 772669 478000) "server.c" "backup.c" "cliente.o" "cli.c" "p2p3r/" "./" "thread.o" "servidor.c" "socket.rar" "tcpserver.c" "#msn.#" "multserver.o" "tcpclient.c" "cli.o" "client.c" "client.cc" "#msn.c#" "udpserver.c" "msn.o" "servidor.o" "../" "thread.c" "Trabajo/" "msn.c" "client.o" "multserver.c" "server.o" "udpclient.c" "a.out")
+
+ ("/home/joaquin/ogl/tutorial04_colored_cube/" (22783 40439 606599 344000) "./" "TransformVertexShader.vertexshader" "tutorial04_colored_cube" "box.obj" "../" "ColorFragmentShader.fragmentshader" "screenshots/" "tutorial04.cpp")
+
+ ("/home/joaquin/Documents/Universidad/Paralelos/Laboratorio02/" (22786 4759 169922 107000) "histo.c" "./" "../" "trapezoidal.c" "Greetings.c" "PingPong.c" "a.out")
+
+ ("/home/joaquin/Documents/Universidad/Redes/Trabajo/" (22785 55367 730380 440000) "TicTacToe.o" "Protocolo.hpp" "./" "Servidor/" "../" "TicTacToe.cpp")
+
+ ("/home/joaquin/Documents/Repos/" (22620 18196 320561 133000) "./" "../" "Tacau/")
+
+ ("/home/joaquin/Documents/Universidad/Grafica/Framework/" (22781 18154 84454 345000) "./" "myTexture.hpp" "myControl.hpp" "myShapes.cpp" "myArt.hpp" "#myConfiguration.hpp#" "myShaders.cpp" "myObjectLoader.hpp" "myShaders.hpp" "myArt.cpp" "myShapes.hpp" "myTexture.cpp" "myControl.cpp" "myConfiguration.cpp" "../" ".#myConfiguration.hpp" "myObjectLoader.cpp" "myConfiguration.hpp")
+
+ ("/home/joaquin/Documents/Universidad/Grafica/Final/" (22781 17092 114500 219000) "LightFragmentShader.fragmentshader" "Makefile" "CMakeFiles/" "CMakeCache.txt" "./" "LightVertexShader.vertexshader" "libartVertices.so" "libmyObjectLoader.so" "libmyShaders.so" "Final" "TransformVertexShader.vertexshader" "libmyControl.so" "libmyArt.so" "Tarea03" "libmyShapes.so" "cmake_install.cmake" "../" "ColorFragmentShader.fragmentshader" "libmyConfiguration.so" "external/" "libmyTexture.so" "final.cpp")
+
+ ("/home/joaquin/Documents/Universidad/GrafBack/Tutorial/ogl-OpenGL-tutorial_0015_33/tutorial08_basic_shading/" (22781 2439 641799 835000) "StandardShading.fragmentshader" "StandardShading.vertexshader" "./" "suzanne.obj" "uvmap.DDS" "tutorial08.cpp" "../" "screenshots/" "cube.obj" "tutorial08_basic_shading")
+
+ ("/home/joaquin/ogl/" (22780 41078 536295 58000) "tutorial17_rotations/" "tutorial02_red_triangle/" "tutorial06_keyboard_and_mouse/" "Makefile" "tutorial18_billboards_and_particles/" "./" "common/" "tutorial12_extensions/" "tutorial04_colored_cube/" "tutorial10_transparency/" ".hgignore" "tutorial14_render_to_texture/" "CMakeLists.txt" "BUILDING.txt" ".gitignore" "misc05_picking/" "tutorial09_vbo_indexing/" "tutorial03_matrices/" "tutorial11_2d_fonts/" ".git/" "tutorial01_first_window/" "playground/" "../" "build/" "distrib/" "tutorial07_model_loading/" "misc04_building_your_own_app/" "tutorial16_shadowmaps/" "external/" "tutorial15_lightmaps/" "misc01_math_cheatsheet/" "tutorial08_basic_shading/" "tutorial13_normal_mapping/" "tutorial05_textured_cube/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
