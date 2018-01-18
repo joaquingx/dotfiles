@@ -1,1 +1,10 @@
 export PATH=$PATH:~/.config/scripts
+# For android-sdk packages
+export ANDROID_HOME=/opt/android-sdk
+export CHROOT=$HOME/chroot
+export EDITOR=vim
+# For python-cheat package
+export CHEATCOLORS=true
+export DEFAULT_CHEAT_DIR=$HOME/dotfiles/zsh/.cheat
+# For python-cheat package
+

@@ -1,0 +1,21 @@
+# The most importante Unit Types: Service| Target| Socket| Timer 
+
+# Two levels of systemctl: sytemctl for wide system
+# 		           systemctl --user for current user!
+
+# Control the units:
+systemctl [status/start/restart/stop/enable/disable] unit
+
+# List all loaded/active units
+systemctl list-units
+
+# List the dependencies of a service
+# when no service name is specified, lists the dependencies of default.target
+systemctl list-dependencies foo.service 
+
+# List currently loaded units of a type unit_type
+systemctl list-units --type=unit_type
+
+# To see source code of a unit
+systemctl cat unit
+

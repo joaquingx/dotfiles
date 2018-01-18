@@ -1,0 +1,43 @@
+# The division of pacman:
+pacman -S[h] # Working with the external repositories, install packages, upgrade system, search packages in mirrorlists.
+pacman -Q[h] # Working with the local packages, search in this local packages, detailed info, files of the package.
+pacman -R[h] # To remove packages and dependencies, use that with wisdom.
+pacman -F[h] # Files belongs to remote packages. Like -Q but with the mirrorlist packages
+
+# To update the local package base and upgrade all out of date packages
+pacman -Syu
+
+# To remove a package and its dependencies which aren't required by any other package
+pacman -Rs
+
+# To remove a pacakge, its dependencies and the dependencies of dependencies and dependencies of the ...
+pacman -Rsc
+
+# To remove a package without uninstalling packages that depend on it.
+pacman -Rdd
+
+# To install a package from builded package file (.tar.xz)
+pacman -U file_name
+
+# To list orphan packages (installed as dependencies and not required anymore)
+pacman -Qdt
+
+# To list all packages explicitly installed and not required as dependencies:
+pacman -Qet
+
+# Nice dependency tree of a package
+pactree package_name
+
+# Cleaning package cache 
+# The best option:
+paccache -r 
+# You really need free space?(Removes cache packages uninstalled):
+pacman -Sc
+# Vamos amigo, dame todo el poder(Removes all cache packages!)
+pacman -Scc
+
+# Install as dependency/explicitly(redefine)
+pacman -S --asdeps package_name / pacman -D --asexplicit package_name
+
+# Path to configuration file
+/etc/pacman.conf

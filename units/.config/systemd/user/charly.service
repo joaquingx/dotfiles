@@ -1,0 +1,8 @@
+[Unit]
+Description=The best gives you advice :)
+ 
+[Service]
+ExecStart=/home/joaquin/.config/scripts/Bienvenida.sh 
+
+[Install]
+WantedBy=default.target

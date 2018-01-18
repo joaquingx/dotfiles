@@ -37,26 +37,18 @@ super + shift + m
   spotify
 
 # brightness keys
-XF86MonBrightnessUp
-  exec xbacklight -inc 10 # increase screen brightness
-
-XF86MonBrightnessDown 
-  exec xbacklight -dec 10 # decrease screen brightness
-
-# keyboard brigthness keys
-
 XF86KbdBrightnessUp
-  exec kb-light.py + 1
+  exec xbacklight -inc 2 # increase screen brightness
 
 XF86KbdBrightnessDown 
-  exec kb-light.py - 1
+  exec xbacklight -dec 2 # decrease screen brightness
 
 # volume keys
 
 XF86AudioRaiseVolume
   exec pulseaudio-ctl up
 
-XF86AudioLowerVolume   
+XF86AudioLowerVolume    
   exec pulseaudio-ctl down
 
 XF86AudioMute

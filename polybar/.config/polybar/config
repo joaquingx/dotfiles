@@ -1,7 +1,7 @@
 [settings]
 
 [color]
-icolor = #fff
+icolor = #ffffff
 
 
 [bar/top]
@@ -196,7 +196,7 @@ animation-charging-framerate_ms = 750
 [bar/bottom]
 bottom = true
 dock = true
-background = #00
+background = #00000000
 foreground = ${color.icolor}
 
 spacing = 1

@@ -1,0 +1,6 @@
+```sql
+-- to select a user by ID
+SELECT *
+FROM Users
+WHERE id = 100
+```
