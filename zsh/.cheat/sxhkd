@@ -1,0 +1,11 @@
+# To move a node towards a side 
+super + shift + {h,j,k,l}
+
+# To expand a node 
+super + alt + {h,j,k,l}
+
+# To contract a node 
+super + alt + shift + {h,j,k,l}
+
+# To move according to history o to older 
+super + shift + {o,i}

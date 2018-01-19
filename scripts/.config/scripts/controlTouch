@@ -12,7 +12,7 @@ disEnable(){
 
 #Replace Elan TouchScreen, Elan Touchpad with the correct names of the devices
 idTouchScreen="$(xinput --list --id-only 'ELAN Touchscreen')"
-idTouchPad="$(xinput --list --id-only 'ETPS/2 Elantech Touchpad')"
+idTouchPad="$(xinput --list --id-only 'ELAN1200:00 04F3:301A Touchpad')"
 
 [ $1 == "touchpad" ] && disEnable $idTouchPad
 [ $1 == "touchscreen" ] && disEnable $idTouchScreen
