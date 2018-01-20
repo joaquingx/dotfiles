@@ -1,114 +1,100 @@
 [settings]
-
-[color]
-icolor = #ffffff
-
-
 [bar/top]
 top = true
-dock = false
+override-redirect = false
 background = ${bar/bottom.background}
 foreground = ${bar/bottom.foreground}
+
 spacing = 0
 lineheight = 10
 height = 32
 
-border-top-size = 0
 padding-left = 1
 padding-right = 1
 module-margin-left = 1
 module-margin-right = 1
 
 font-0 = Inconsolata:size=12
-font-1 = Material Icons:size=15
+font-1 = MaterialDesignIcons:size=15
+
 modules-left  = powermenu
-modules-center = spotify space
-modules-right = updates backlight volume wireless-network time battery filesystem
+modules-center = space
+modules-right = updates backlight volume wireless-network time battery
 
 wm-restack = bspwm
-
-
-[module/spotify]
-type = custom/script
-exec = ~/.config/scripts/spotify.sh %artist% - %title%
-tail = true
-interval = 1
 
 [module/backlight]
 type = internal/backlight
 card = intel_backlight
-format = <ramp> <label>
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-3 = 
-
+format = <ramp>  <label>
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
 
 [module/space]
 type = custom/script
 exec = echo " "
 format-padding = 10
 
-
-
 [module/powermenu]
 type = custom/menu
 
-label-open = 
-label-close = 
-label-open-foreground =  ${color.icolor}
-label-close-foreground = ${color.icolor} 
+label-open = 
+label-close = 
+label-open-foreground =  ${bar/bottom.foreground}
+label-close-foreground = ${bar/bottom.foreground} 
 label-separator = |
-label-separator-foreground = ${color.icolor}
+label-separator-foreground = ${bar/bottom.foreground}
 
 menu-0-0 = Terminate WM
-menu-0-0-foreground = ${color.icolor}
+menu-0-0-foreground = ${bar/bottom.foreground}
 menu-0-0-exec = bspc quit -1
 menu-0-1 = Reboot
-menu-0-1-foreground = ${color.icolor}
+menu-0-1-foreground = ${bar/bottom.foreground}
 menu-0-1-exec = menu-open-1
 menu-0-2 = Power off
-menu-0-2-foreground = ${color.icolor}
+menu-0-2-foreground = ${bar/bottom.foreground}
 menu-0-2-exec = menu-open-2
 menu-0-3 = Lock
-menu-0-3-foreground = ${color.icolor}
+menu-0-3-foreground = ${bar/bottom.foreground}
 menu-0-3-exec = i3lock-fancy
 
 
 menu-1-0 = Cancel
-menu-1-0-foreground = ${color.icolor}
+menu-1-0-foreground = ${bar/bottom.foreground}
 menu-1-0-exec = menu-open-0
 menu-1-1 = Reboot
 menu-1-1-foreground = #ee
 menu-1-1-exec = reboot
 
 menu-2-0 = Power off
-menu-2-0-foreground = ${color.icolor}
+menu-2-0-foreground = ${bar/bottom.foreground}
 menu-2-0-exec = poweroff
 menu-2-1 = Cancel
-menu-2-1-foreground = ${color.icolor}
+menu-2-1-foreground = ${bar/bottom.foreground}
 menu-2-1-exec = menu-open-0
 
 [module/wireless-network]
 type = internal/network
-interface = wlp3s0
+interface = wlp2s0
 interval = 2.0
 ping-interval = 10
 
 format-connected = <ramp-signal> <label-connected>
 label-connected = %essid%
-label-disconnected =  not connected
+label-disconnected =   not connected
 label-disconnected-foreground = #66
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
 
-animation-packetloss-0 = 
-animation-packetloss-0-foreground = #ffa64c
-animation-packetloss-1 =         
+animation-packetloss-0 = 
+animation-packetloss-0-foreground = ${bar/bottom.foreground}
+animation-packetloss-1 = 
 animation-packetloss-1-foreground = ${bar/top.foreground}
 animation-packetloss-framerate = 500
 
@@ -119,18 +105,43 @@ interval = 1000
 
 [module/time]
 type = internal/date
-date =  %H:%M
+date = %H:%M %a %d
 interval = 60
-
 [module/volume]
 type = internal/volume
-label-volume =  %percentage%
-label-muted =  muted
+label-volume =  %percentage%
+label-muted =  muted
 
 # [module/music]
 # type = custom/script
 # exec = python2.7 ~/.bin/info.py
 # click-left = termite -e 'sh -c ncmpcpp'
+
+[module/mpd]
+type = internal/mpd
+format-online = 
+
+icon-prev = 
+icon-seekb = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+icon-seekf = 
+icon-random = 
+icon-repeat = 
+
+bar-progress-width = 15
+bar-progress-indicator = │
+bar-progress-indicator-foreground = #bb
+bar-progress-fill = ─
+bar-progress-fill-foreground = #bb
+bar-progress-fill-font = 3
+bar-progress-empty = ─
+bar-progress-empty-foreground = #44
+bar-progress-empty-font = 3
+label-time-foreground = #bb
+
 
 [module/battery]
 type = internal/battery
@@ -152,21 +163,21 @@ adapter = AC0
 ;   <bar-capaity>
 ;   <ramp-capacity>
 ;   <animation-charging>
-format-charging = <animation-charging><label-charging>
+format-charging = <animation-charging> <label-charging>
 
 
 ; Available tags:
 ;   <label-discharging> (default)
 ;   <bar-capaity>
 ;   <ramp-capacity>
-format-discharging =<ramp-capacity> <label-discharging>
+format-discharging =<ramp-capacity>  <label-discharging>
 
 
 ; Available tags:
 ;   <label-full> (default)
 ;   <bar-capaity>
 ;   <ramp-capacity>
-format-full = <ramp-capacity><label-full>
+format-full = <ramp-capacity> <label-full>
 
 ; Available tokens:
 ;   %percentage% (default)
@@ -180,25 +191,26 @@ format-full = <ramp-capacity><label-full>
 ;label-full = <>%percentage%
 ;label-full-foreground = #BF616A
 
-ramp-capacity-0 =
-ramp-capacity-1 =
-ramp-capacity-2 =  
-ramp-capacity-3 =
-ramp-capacity-4 =
+ramp-capacity-0 =   
+ramp-capacity-1 =    
+ramp-capacity-2 =   
+ramp-capacity-3 =    
+ramp-capacity-4 =    
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-3 = 
-animation-charging-4 = 
+animation-charging-0 =    
+animation-charging-1 =    
+animation-charging-2 =    
+animation-charging-3 =    
+animation-charging-4 =    
 animation-charging-framerate_ms = 750
 
 [bar/bottom]
 bottom = true
-dock = true
-background = #00000000
-foreground = ${color.icolor}
-
+override-redirectpol = true
+background = #1fffffff
+;foreground = #4A5466
+foreground = #212121
+height = 32
 spacing = 1
 lineheight = 3
 
@@ -217,53 +229,53 @@ modules-right = cpu memory cpu_temp
 type = internal/memory
 interval = 2
 label =  %gb_used%
-label-foreground = ${color.icolor}
+label-foreground = ${bar/bottom.foreground}
 format = <label> <bar-used> 
 
 bar-used-width = 7
-bar-used-foreground-0 = ${color.icolor}
-bar-used-foreground-1 = ${color.icolor}
+bar-used-foreground-0 = ${bar/bottom.foreground}
+bar-used-foreground-1 = ${bar/bottom.foreground}
 bar-used-foreground-2 = #b7672d
 bar-used-foreground-3 = #7f0a0a
 bar-used-gradient = false
-bar-used-indicator = 
+bar-used-indicator = 
 bar-used-indicator-font = 1
 bar-used-indicator-foreground = #6f7e98
-bar-used-fill = 
+bar-used-fill = 
 bar-used-fill-font = 1
-bar-used-empty = 
+bar-used-empty = 
 bar-used-empty-font = 1
-bar-used-empty-foreground = ${color.icolor}
+bar-used-empty-foreground = ${bar/bottom.foreground}
 
 [module/cpu]
 type = internal/cpu
-interval = 2
+interval = 2c
 
 format = <label> <bar-load>
 label =  %percentage%
-label-foreground = ${color.icolor}
+label-foreground = ${bar/bottom.foreground}
 
 bar-load-width = 7
-bar-load-foreground-0 = ${color.icolor}
-bar-load-foreground-1 = ${color.icolor}
+bar-load-foreground-0 = ${bar/bottom.foreground}
+bar-load-foreground-1 = ${bar/bottom.foreground}
 bar-load-foreground-2 = #b7672d
 bar-load-foreground-3 = #7f0a0a
 bar-load-gradient = false
 bar-load-indicator = 
 bar-load-indicator-font = 1
-bar-load-indicator-foreground = ${color.icolor}
+bar-load-indicator-foreground = ${bar/bottom.foreground}
 bar-load-fill = 
 bar-load-fill-font = 1
 bar-load-empty = 
 bar-load-empty-font = 1
-bar-load-empty-foreground = ${color.icolor}
+bar-load-empty-foreground = ${bar/bottom.foreground}
 
 [module/cpu_temp]
 type = internal/temperature
 interval = 3
-thermal-zone = 0
+thermal-zone = 8
 padding-left = 4
-format = <ramp><label>
+format = <ramp> <label>
 label-warn-foreground = #955540
 ramp-0 = 
 
@@ -279,7 +291,7 @@ type = internal/bspwm
   ws-icon-5 =study;
   ws-icon-6 =chat;
 
- ; Available tags:
+; Available tags:
  ;   <label-state> (default) - gets replaced with <label-(active|urgent|occupied|empty)>
  ;   <label-mode> - gets replaced with <label-(monocle|tiled|fullscreen|floatin	g|locked|sticky|private)>
  format = <label-state> <label-mode>
@@ -292,10 +304,10 @@ type = internal/bspwm
  ;   %icon%
  ;   %index%
  ; Default: %icon%  %name%
- label-active = %icon%
- label-active-foreground = ${color.icolor}
- label-active-underline = #5E6B81
- label-active-padding = 1
+ label-focused = %icon%
+ label-focused-foreground = ${bar/bottom.foreground}
+ label-focused-underline = ${bar/bottom.foreground}
+ label-focused-padding = 1
 
  ; Available tokens:
  ;   %name%
@@ -303,7 +315,7 @@ type = internal/bspwm
  ;   %index%
  ; Default: %icon%  %name%
  label-occupied = %icon% %name%
- label-occupied-foreground = ${color.icolor}
+ label-occupied-foreground = ${bar/bottom.foreground}
  label-occupied-padding = 1
 
  ; Available tokens:
@@ -321,5 +333,5 @@ type = internal/bspwm
  ;   %index%
  ; Default: %icon%  %name%
  label-empty = %icon%
- label-empty-foreground = #b7672d
+ label-empty-foreground = ${xrdb:color10}
  label-empty-padding = 1

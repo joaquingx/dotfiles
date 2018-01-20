@@ -26,3 +26,6 @@ antigen apply
 
 # Umask( Permission for newly files)
 umask 027
+
+# pywal: Applying colorscheme for new shells.
+(cat ~/.cache/wal/sequences &)

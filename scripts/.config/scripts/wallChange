@@ -2,6 +2,7 @@
 #!/bin/bash
 
 while true; do
-     feh --randomize --bg-fill /home/joaquin/dotfiles/wallpapers/Evangelion/*
+     rand=$(ls ~/dotfiles/wallpapers/Evangelion/*| shuf -n 1)
+     wal -i ${rand}
      sleep 3600
 done

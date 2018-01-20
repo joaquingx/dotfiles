@@ -1,12 +1,22 @@
 [settings]
+
+[color]
+background = ${xrdb:color2}
+;foreground = #4A5466
+foreground = ${xrdb:color8}
+background-alt = ${xrdb:color5}
+foreground-alt = ${xrdb:color9}
+
+
 [bar/top]
 top = true
-dock = false
-background = ${bar/bottom.background}
-foreground = ${bar/bottom.foreground}
+override-redirect = false
+background = ${color.background}
+foreground = ${color.foreground}
 
 spacing = 0
-lineheight = 3
+lineheight = 10
+height = 32
 
 padding-left = 1
 padding-right = 1
@@ -17,7 +27,7 @@ font-0 = Inconsolata:size=12
 font-1 = MaterialDesignIcons:size=15
 
 modules-left  = powermenu
-modules-center = music space
+modules-center = space
 modules-right = updates backlight volume wireless-network time battery
 
 wm-restack = bspwm
@@ -41,59 +51,59 @@ type = custom/menu
 
 label-open = 
 label-close = 
-label-open-foreground =  #4A5466
-label-close-foreground = #4A5466 
+label-open-foreground =  ${color.foreground}
+label-close-foreground = ${color.foreground} 
 label-separator = |
-label-separator-foreground = #4A5466
+label-separator-foreground = ${color.foreground}
 
 menu-0-0 = Terminate WM
-menu-0-0-foreground = #4A5466
+menu-0-0-foreground = ${color.foreground}
 menu-0-0-exec = bspc quit -1
 menu-0-1 = Reboot
-menu-0-1-foreground = #4A5466
+menu-0-1-foreground = ${color.foreground}
 menu-0-1-exec = menu-open-1
-menu-0-2 = Power off
-menu-0-2-foreground = #4A5466
+menu-0-2 = Power off:w
+menu-0-2-foreground = ${color.foreground}
 menu-0-2-exec = menu-open-2
 menu-0-3 = Lock
-menu-0-3-foreground = #4A5466
+menu-0-3-foreground = ${color.foreground}
 menu-0-3-exec = i3lock-fancy
 
 
 menu-1-0 = Cancel
-menu-1-0-foreground = #4A5466
+menu-1-0-foreground = ${color.foreground}
 menu-1-0-exec = menu-open-0
 menu-1-1 = Reboot
 menu-1-1-foreground = #ee
 menu-1-1-exec = reboot
 
 menu-2-0 = Power off
-menu-2-0-foreground = #4A5466
+menu-2-0-foreground = ${color.foreground}
 menu-2-0-exec = poweroff
 menu-2-1 = Cancel
-menu-2-1-foreground = #4A5466
+menu-2-1-foreground = ${color.foreground}
 menu-2-1-exec = menu-open-0
 
 [module/wireless-network]
 type = internal/network
-interface = net1
+interface = wlp2s0
 interval = 2.0
 ping-interval = 10
 
 format-connected = <ramp-signal> <label-connected>
 label-connected = %essid%
-label-disconnected =    not connected
+label-disconnected =   not connected
 label-disconnected-foreground = #66
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
 
-animation-packetloss-0 = 
-animation-packetloss-0-foreground = #ffa64c
-animation-packetloss-1 = 
+animation-packetloss-0 = 
+animation-packetloss-0-foreground = ${color.foreground}
+animation-packetloss-1 = 
 animation-packetloss-1-foreground = ${bar/top.foreground}
 animation-packetloss-framerate = 500
 
@@ -104,6 +114,7 @@ interval = 1000
 
 [module/time]
 type = internal/date
+format-background = ${color.background-alt}
 date = %H:%M %a %d
 interval = 60
 [module/volume]
@@ -144,7 +155,7 @@ label-time-foreground = #bb
 
 [module/battery]
 type = internal/battery
-
+format-background = ${color.background-alt}
 ; This is useful in case the battery never reports 100% charge
 full_at = 100
 
@@ -205,13 +216,12 @@ animation-charging-framerate_ms = 750
 
 [bar/bottom]
 bottom = true
-dock = true
-background = #00
-foreground = #4A5466
-
+override-redirectpol = true
+height = 32
 spacing = 1
 lineheight = 3
-
+background = ${color.background}
+foreground = ${color.foreground}
 padding-left = 1
 padding-right = 1
 module-margin-left = 0
@@ -227,12 +237,12 @@ modules-right = cpu memory cpu_temp
 type = internal/memory
 interval = 2
 label =  %gb_used%
-label-foreground = #4A5466
+label-foreground = ${color.foreground}
 format = <label> <bar-used> 
 
 bar-used-width = 7
-bar-used-foreground-0 = #4A5466
-bar-used-foreground-1 = #4A5466
+bar-used-foreground-0 = ${color.foreground}
+bar-used-foreground-1 = ${color.foreground}
 bar-used-foreground-2 = #b7672d
 bar-used-foreground-3 = #7f0a0a
 bar-used-gradient = false
@@ -243,35 +253,35 @@ bar-used-fill = 
 bar-used-fill-font = 1
 bar-used-empty = 
 bar-used-empty-font = 1
-bar-used-empty-foreground = #4A5466
+bar-used-empty-foreground = ${color.foreground}
 
 [module/cpu]
 type = internal/cpu
-interval = 2
+interval = 2c
 
 format = <label> <bar-load>
 label =  %percentage%
-label-foreground = #4A5466
+label-foreground = ${color.foreground}
 
 bar-load-width = 7
-bar-load-foreground-0 = #4A5466
-bar-load-foreground-1 = #4A5466
+bar-load-foreground-0 = ${color.foreground}
+bar-load-foreground-1 = ${color.foreground}
 bar-load-foreground-2 = #b7672d
 bar-load-foreground-3 = #7f0a0a
 bar-load-gradient = false
 bar-load-indicator = 
 bar-load-indicator-font = 1
-bar-load-indicator-foreground = #4A5466
+bar-load-indicator-foreground = ${color.foreground}
 bar-load-fill = 
 bar-load-fill-font = 1
 bar-load-empty = 
 bar-load-empty-font = 1
-bar-load-empty-foreground = #4A5466
+bar-load-empty-foreground = ${color.foreground}
 
 [module/cpu_temp]
 type = internal/temperature
 interval = 3
-thermal-zone = 0
+thermal-zone = 8
 padding-left = 4
 format = <ramp> <label>
 label-warn-foreground = #955540
@@ -302,10 +312,10 @@ type = internal/bspwm
  ;   %icon%
  ;   %index%
  ; Default: %icon%  %name%
- label-active = %icon%
- label-active-foreground = #4A5466
- label-active-underline = #5E6B81
- label-active-padding = 1
+ label-focused = %icon%
+ label-focused-foreground = ${color.foreground}
+ label-focused-underline = ${color.foreground}
+ label-focused-padding = 1
 
  ; Available tokens:
  ;   %name%
@@ -313,7 +323,7 @@ type = internal/bspwm
  ;   %index%
  ; Default: %icon%  %name%
  label-occupied = %icon% %name%
- label-occupied-foreground = #4A5466
+ label-occupied-foreground = ${color.foreground}
  label-occupied-padding = 1
 
  ; Available tokens:
@@ -331,5 +341,5 @@ type = internal/bspwm
  ;   %index%
  ; Default: %icon%  %name%
  label-empty = %icon%
- label-empty-foreground = #b7672d
+ label-empty-foreground = ${xrdb:color10}
  label-empty-padding = 1

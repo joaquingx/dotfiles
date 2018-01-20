@@ -6,4 +6,4 @@ text = p.stdout.read()
 updatelist  = text.splitlines()
 number_of_updates = len(updatelist)
 
-print("" + " " + str(number_of_updates))
+print("" + " " + str(number_of_updates))
