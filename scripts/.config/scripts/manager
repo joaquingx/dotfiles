@@ -1,0 +1,25 @@
+#! /bin/bash
+
+initWallpaper(){
+	wallChange
+}
+
+changeTheme(){
+	if [ $# -lt 1 ]
+	then
+		echo "You need to specify the theme that you want:";
+		echo "glitch|unix|evangelion|misc";
+		exit
+	fi
+	export WALLPATH=~/dotfiles/wallpapers/$1
+	rand=$(ls $WALLPATH/* | shuf -n 1)
+	wal -qi $rand
+}
+
+if [ "$1" == "-c" ]
+then
+	changeTheme $2
+else 
+	initWallpaper
+fi
+

@@ -2,7 +2,7 @@
 #!/bin/bash
 
 while true; do
-     rand=$(ls ~/dotfiles/wallpapers/Evangelion/*| shuf -n 1)
-     wal -i ${rand}
+     rand=$(ls ${WALLPATH}/*| shuf -n 1)
+     wal -qi ${rand}
      sleep 3600
 done

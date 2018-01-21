@@ -6,5 +6,6 @@ export EDITOR=vim
 # For python-cheat package
 export CHEATCOLORS=true
 export DEFAULT_CHEAT_DIR=$HOME/dotfiles/zsh/.cheat
+export WALLPATH=~/dotfiles/wallpapers/unix
 # For python-cheat package
 
