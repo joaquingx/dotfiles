@@ -113,7 +113,6 @@ interval = 86400
 type = internal/date
 date = %H:%M %a %d
 interval = 60
-
 [module/volume]
 type = internal/volume
 label-volume =  %percentage%
@@ -214,7 +213,7 @@ animation-charging-framerate_ms = 750
 [bar/bottom]
 bottom = true
 override-redirectpol = true
-background = #5fffffff
+background = #1fffffff
 ;foreground = #4A5466
 foreground = #212121
 height = 32
@@ -314,7 +313,7 @@ type = internal/bspwm
  ; Default: %icon%  %name%
  label-focused = %icon%
  label-focused-foreground = ${bar/bottom.foreground}
- label-focused-underline = #000000
+ label-focused-underline = ${bar/bottom.foreground}
  label-focused-padding = 1
 
  ; Available tokens:
@@ -341,5 +340,5 @@ type = internal/bspwm
  ;   %index%
  ; Default: %icon%  %name%
  label-empty = %icon%
- label-empty-foreground = #786b8b
+ label-empty-foreground = ${xrdb:color10}
  label-empty-padding = 1

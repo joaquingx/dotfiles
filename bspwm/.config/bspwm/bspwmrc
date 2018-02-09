@@ -40,7 +40,7 @@ bspc rule -a Evince   desktop='^6'
 # Aesthetics
 xrdb ~/.Xresources #rofi shit
 compton -b & 
-~/.config/scripts/wallChange &
+feh --bg-fill /home/joaquin/dotfiles/wallpapers/misc/Naruto1.jpg &
 xsetroot -cursor_name left_ptr
 
 # For reducing power consumption

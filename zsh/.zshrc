@@ -28,4 +28,4 @@ antigen apply
 umask 027
 
 # pywal: Applying colorscheme for new shells.
-(cat ~/.cache/wal/sequences &)
+#(cat ~/.cache/wal/sequences &)
