@@ -1,0 +1,3 @@
+#!/bin/bash
+
+aur updates -d $1 | wc -l 

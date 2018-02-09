@@ -1,0 +1,8 @@
+# To find some module that controls some PCI
+basename `readlink /sys/class/class_name/device_name/device/driver/module`
+
+# Search the kernel Makefiles for the CONFIG_ rule that builds this module name
+# by using find and grep:
+find -type f -name Makefile | xargs grep module_name
+
+

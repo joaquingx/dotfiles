@@ -4,7 +4,7 @@ top = true
 override-redirect = false
 background = ${bar/bottom.background}
 foreground = ${bar/bottom.foreground}
-
+monitor = ${env:MONITOR:}
 spacing = 0
 lineheight = 10
 height = 32
@@ -219,6 +219,7 @@ foreground = #212121
 height = 32
 spacing = 1
 lineheight = 3
+monitor = ${env:MONITOR:}
 
 padding-left = 1
 padding-right = 1

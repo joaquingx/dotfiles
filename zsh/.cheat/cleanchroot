@@ -1,0 +1,19 @@
+
+# Define CHROOT variable
+CHROOT=$HOME/chroot
+
+# Create chroot
+mkarchroot $CHROOT/root base-devel
+
+
+### To build packages
+
+
+# Make sure that chroot is up to date:
+arch-nspawn $CHROOT/root pacman -Syu
+
+# In the directory thats contains the PKGBUILD
+makechrootpkg -c -r $CHROOT
+
+# Install the packages in the working chroot
+makechrootpkg -r $CHROOT -I package-1.0-1-x86_64.pkg.tar.xz 
