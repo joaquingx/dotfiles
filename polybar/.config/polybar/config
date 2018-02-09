@@ -19,7 +19,7 @@ font-1 = MaterialDesignIcons:size=15
 
 modules-left  = powermenu
 modules-center = peeta
-modules-right = updates backlight volume wireless-network time battery
+modules-right = updates updatesAUR backlight volume wireless-network time battery
 
 wm-restack = bspwm
 
@@ -102,6 +102,13 @@ animation-packetloss-framerate = 500
 type = custom/script
 exec = python3 ~/.config/scripts/num.py
 interval = 1000
+
+[module/updatesAUR]
+type = custom/script
+# archuser is the local custom repository that contains AUR packages, read man aur
+exec = ~/.config/scripts/updatesAUR archuser
+interval = 10000
+
 
 [module/peeta]
 type = custom/script

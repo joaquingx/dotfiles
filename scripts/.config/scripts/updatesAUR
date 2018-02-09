@@ -1,3 +1,6 @@
 #!/bin/bash
 
-aur updates -d $1 | wc -l 
+cntUpdates=$(aur updates -d $1 | wc -l)
+
+echo " ${cntUpdates}"
+
