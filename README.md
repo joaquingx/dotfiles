@@ -1,4 +1,4 @@
-## Dotfiles(or the configuration files for guys with too much time)
+## Dotfiles
 My personal setup of dotfiles!
 
 ## My Setup
@@ -14,5 +14,5 @@ Just link the dotfiles with [stow](https://www.gnu.org/software/stow/).
 
 ## Thanks and resources
 [/r/unixporn](https://www.reddit.com/r/unixporn/) is a great place for learning about customization. I have some files that are
-<s>stealed</s> adapted from [Some cool guy in unixporn](https://github.com/Unathi-Skosana)(I hope you do not mind :see_no_evil:).
-I recommend read this [post](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) if you are new in this shit(like me).
+<s>stealed</s> adapted from [Some cool guy in unixporn](https://github.com/Unathi-Skosana)(hope you dont mind :see_no_evil:).
+I recommend read this [post](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) if you are new in this(like me).
