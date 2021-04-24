@@ -1,6 +1,7 @@
-
 alias sl="ls"
 alias LS="ls"
 alias ...="../.."
 alias l="ls"
-
+alias git="hub"
+alias pipu="pip install --user"
+alias bgcbr="python -m bgcbr.cli"

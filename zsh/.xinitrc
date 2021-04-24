@@ -1,4 +1,4 @@
 source /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-exec bspwm 
-#exec startxfce4
+#exec bspwm 
+exec startxfce4
 

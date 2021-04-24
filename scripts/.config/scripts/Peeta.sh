@@ -6,8 +6,8 @@ alert='\033[1;33m'
 neutral='\033[0m'
 
 greeting() {
-	echo "  Hello ${USER}, here $1!"
-	echo "  This is your report: "
+	echo "󰀲  Hello ${USER}, here $1!"
+	echo "󰀲  This is your report: "
 }
 
 statusGit(){

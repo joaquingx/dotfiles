@@ -10,12 +10,12 @@ super + shift + p
 super + shift + f
   firefox
 
-#super + c
-#  chrome
+super + shift + c
+  google-chrome-stable
 
 # screenshot
 super + shift + s
-  scrot
+  steam
 
 # file manager
 super + shift + n
@@ -132,7 +132,7 @@ super + {p,b,comma,period}
 
 # focus the next/previous node
 super + {_,shift + }c
-      bspc node -f {next,prev}.local
+      bspc node -f {next,prev}.local.!hidden.window
 
 # focus the next/previous desktop
 super + bracket{left,right}
@@ -187,3 +187,8 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
   bspc node -v {-20 0,0 20,0 -20,20 0}
+
+
+#pruebas
+super + p ; super + b ; super + c
+  google-chrome-stable

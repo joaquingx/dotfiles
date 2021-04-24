@@ -7,4 +7,4 @@ rofi.color-window: #ffffffff, #ffffffff, #ffffffff
 rofi.color-normal: #F6F9FF, #4A5466, #F6F9FF, #F6F9FF, #b7672d
 rofi.separator-style: none
 ! Xcursor.theme: OSX-ElCap
-! Xcursor.size: 60
+Xcursor.size: 15

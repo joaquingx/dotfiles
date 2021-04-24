@@ -1,7 +1,7 @@
 [options]
-font = Inconsolata 14
+font = Inconsolata
 clickable_url    = true
-browser          = firefox
+browser          = google-chrome-stable
 mouse_autohide   = false
 cursor_shape     = block
 cursor_blink     = true 

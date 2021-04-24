@@ -1,11 +1,18 @@
-export PATH=$PATH:~/.config/scripts
+export PATH=$PATH:~/.config/scripts:~/.npm-global/bin:~/.local/bin:/usr/lib/hadoop-3.2.0/sbin:/usr/lib/hadoop-3.2.0/bin
 # For android-sdk packages
+export JUNK=/home/free/SO
 export ANDROID_HOME=/opt/android-sdk
 export CHROOT=$HOME/chroot
 export EDITOR=vim
+export BROWSER=google-chrome-stable
 # For python-cheat package
 export CHEATCOLORS=true
 export DEFAULT_CHEAT_DIR=$HOME/dotfiles/zsh/.cheat
 export WALLPATH=~/dotfiles/wallpapers/unix
 # For python-cheat package
 
+# Linux homebrew - just for aws-sam-cli package
+export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
+
+# AWS-VAULT Config
+export AWS_VAULT_BACKEND=file

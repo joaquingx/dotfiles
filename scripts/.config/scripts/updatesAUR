@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cntUpdates=$(aur updates -d $1 | wc -l)
+cntUpdates=$(pacman -Sl archuser| sed -e 's|archuser||g' -e 's|\[installed\]||g' | aur vercmp| wc -l)
 
-echo " ${cntUpdates}"
+echo "󰁉${cntUpdates}"
 

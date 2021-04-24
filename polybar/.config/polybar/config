@@ -40,8 +40,8 @@ format-padding = 10
 [module/powermenu]
 type = custom/menu
 
-label-open = 
-label-close = 
+label-open = 󰯉
+label-close = 󰯉
 label-open-foreground =  ${bar/bottom.foreground}
 label-close-foreground = ${bar/bottom.foreground} 
 label-separator = |
@@ -86,11 +86,11 @@ label-connected = %essid%
 label-disconnected =   not connected
 label-disconnected-foreground = #66
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = 󰤟
+ramp-signal-1 = 󰤟
+ramp-signal-2 = 󰤢
+ramp-signal-3 = 󰤢
+ramp-signal-4 = 󰤨
 
 animation-packetloss-0 = 
 animation-packetloss-0-foreground = ${bar/bottom.foreground}
@@ -118,44 +118,18 @@ interval = 86400
 
 [module/time]
 type = internal/date
-date = %H:%M %a %d
+date =󰔠 %H:%M %a %d
 interval = 60
 
 [module/volume]
 type = internal/volume
-label-volume =  %percentage%
+label-volume = 󱄠%percentage%
 label-muted =  muted
 
 # [module/music]
 # type = custom/script
 # exec = python2.7 ~/.bin/info.py
 # click-left = termite -e 'sh -c ncmpcpp'
-
-[module/mpd]
-type = internal/mpd
-format-online = 
-
-icon-prev = 
-icon-seekb = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
-icon-seekf = 
-icon-random = 
-icon-repeat = 
-
-bar-progress-width = 15
-bar-progress-indicator = │
-bar-progress-indicator-foreground = #bb
-bar-progress-fill = ─
-bar-progress-fill-foreground = #bb
-bar-progress-fill-font = 3
-bar-progress-empty = ─
-bar-progress-empty-foreground = #44
-bar-progress-empty-font = 3
-label-time-foreground = #bb
-
 
 [module/battery]
 type = internal/battery
@@ -243,7 +217,7 @@ modules-right = cpu memory cpu_temp
 [module/memory]
 type = internal/memory
 interval = 2
-label =  %gb_used%
+label = 󰻖%gb_used%
 label-foreground = ${bar/bottom.foreground}
 format = <label> <bar-used> 
 
@@ -267,7 +241,7 @@ type = internal/cpu
 interval = 2c
 
 format = <label> <bar-load>
-label =  %percentage%
+label = 󰾂 %percentage%
 label-foreground = ${bar/bottom.foreground}
 
 bar-load-width = 7
@@ -292,19 +266,19 @@ thermal-zone = 8
 padding-left = 4
 format = <ramp> <label>
 label-warn-foreground = #955540
-ramp-0 = 
+ramp-0 = 󱃂
 
 [module/bspwm]
 type = internal/bspwm
 
 ; workspace_icon-[0-9]+ = label;icon
-  ws-icon-0 =desktop;
-  ws-icon-1 =code;
-  ws-icon-2 =browse;
-  ws-icon-3 =explore;
-  ws-icon-4 =music;
-  ws-icon-5 =study;
-  ws-icon-6 =chat;
+  ws-icon-0 =desktop;󰀟
+  ws-icon-1 =code;󰌠
+  ws-icon-2 =browse;󰌽
+  ws-icon-3 =explore;󰣑
+  ws-icon-4 =music;󰌳
+  ws-icon-5 =study;󰐁
+  ws-icon-6 =chat;󰏘
 
 ; Available tags:
  ;   <label-state> (default) - gets replaced with <label-(active|urgent|occupied|empty)>
